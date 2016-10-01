@@ -233,7 +233,6 @@ a.btn:hover {
 /* VARIOUS */
 
 #faqs dt {
-    font-size: 1.5rem;
     cursor: pointer;
 }
 
@@ -241,12 +240,16 @@ a.btn:hover {
     margin-top: 25px;
 }
 
+#faqs dt::before , #faqs .expanded::before {
+	font-family: FontAwesome;
+}
+
 #faqs dt::before {
-    content: "+ "
+	content: "\f067\00a0";
 }
 
 #faqs .expanded::before {
-    content: "- ";
+	content: "\f068\00a0";
 }
 
 .contributor {
