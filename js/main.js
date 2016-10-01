@@ -24,7 +24,7 @@ $(document).ready(function() {
         dataType: 'json',
         success: function(data) {
             $.each(data, function(index, element) {
-                $('#contributors').append('<div class="contributor card"><img src="' + data[index].avatar_url + '"><p><a href="' + data[index].html_url + '" class="contributor-login">' + data[index].login + '</a><br>' + data[index].contributions + ' contributions</p></div>');
+                $('#contributors').append('<div class="contributor card"><img src="' + data[index].avatar_url + '"><p><a href="' + data[index].html_url + '" class="contributor-login">' + data[index].login + '</a><br>' + data[index].contributions + ' contribution' + ((data[index].contributions > 1) ? 's' : '') + '</p></div>');
             });
         }
     });
