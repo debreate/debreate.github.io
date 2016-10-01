@@ -86,7 +86,7 @@ body {
 #header {
     padding: 20px 0;
     background-color: #e74c3c;
-    background: linear-gradient(to bottom left, #ec6b5d, #e74c3c) #e74c3c;
+    background: linear-gradient(to bottom left, #c13223, #e74c3c) #e74c3c;
     color: #ffffff;
     text-align: center;
 }
@@ -140,7 +140,7 @@ body {
 /* TEXT */
 
 h1, h2 {
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     font-weight: normal;
 }
 
@@ -162,7 +162,7 @@ p {
 }
 
 .lead {
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     font-size: 1.4rem;
 }
 
@@ -298,6 +298,12 @@ a.close:hover {
 }
 
 /* VARIOUS */
+
+.github-stats {
+	margin-bottom: 20px;
+	padding: 10px;
+	font-size: 1.4rem;
+}
 
 #faqs dt {
     cursor: pointer;
