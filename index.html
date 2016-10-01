@@ -26,7 +26,27 @@
                 <h2>A powerful Debian Package Builder</h2>
                 <p class="lead">Easy, light &amp; strong.</p>
                 <a class="btn btn-primary" href="#downloads"><i class="fa fa-download" aria-hidden="true"></i> Download Debreate</a>
-                <!-- <button class="btn btn-secondary"><i class="fa fa-file" aria-hidden="true"></i> Changelog 0.7.11</button> -->
+                <a class="btn btn-secondary" href="#" data-modal-id="popup"><i class="fa fa-file" aria-hidden="true"></i> Release notes</a>
+
+                <div id="popup" class="modal-box">
+                    <header>
+                        <a href="#" class="js-modal-close close">×</a>
+                        <h3>Release notes</h3>
+                    </header>
+                    <div class="modal-body">
+                        <h3>0.7.11</h3>
+                        <ul>
+                            <li>Add template generation for copyright</li>
+                            <li>Create generic Makefile</li>
+                            <li>Increment version with 'update-version.py' script</li>
+                            <li>Change some string formatting methods (use 'string.format()')</li>
+                        </ul>
+                        <h3>0.7.10</h3>
+                        <ul>
+                            <li>Initial debianized release</li>
+                        </ul>
+                    </div>
+                </div>
             </div>
         </div>
     </header>
@@ -61,7 +81,6 @@
 
             <div id="how" class="row">
                 <h2>FAQ</h2>
-
                 <dl id="faqs">
                     <div class="col-12 card">
                         <dt>Can I use Debreate for free?</dt>
