@@ -237,6 +237,10 @@ a.btn:hover {
     opacity: 0.6;
 }
 
+.card h2 {
+	margin-bottom: 0;
+}
+
 /* VARIOUS */
 
 #faqs dt {
