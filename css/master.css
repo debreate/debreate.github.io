@@ -194,6 +194,7 @@ a.btn:hover {
     padding: 30px 30px;
     border: 2px solid transparent;
     border-radius: 40px;
+	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
     text-transform: uppercase;
     cursor: pointer;
 }
@@ -228,6 +229,7 @@ a.btn:hover {
     margin-bottom: 20px;
     padding: 20px;
     border-radius: 4px;
+	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
     background-color: #ffffff;
     transition: opacity 0.5s;
 }
@@ -246,6 +248,7 @@ a.btn:hover {
 	z-index: 1000;
 	width: 98%;
 	border-radius: 4px;
+	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
 	background-color: #ffffff;
 	color: #333333;
 	text-align: left;
