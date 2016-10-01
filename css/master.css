@@ -166,6 +166,10 @@ p {
     font-size: 1.4rem;
 }
 
+ul li:not(:last-child) {
+	margin-bottom: 10px;
+}
+
 a {
     color: #e74c3c;
     text-decoration: none;
