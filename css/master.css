@@ -151,7 +151,10 @@ h1 {
 
 h2 {
     font-size: 2rem;
+}
 
+h3 {
+	font-size: 1.6rem;
 }
 
 p {
@@ -270,7 +273,7 @@ a.btn:hover {
 
 .icon {
     padding: 15px;
-    font-size: 4rem;
+    font-size: 1.6rem;
     text-align: center;
     transition: opacity 0.5s;
 }
@@ -281,6 +284,7 @@ a.btn:hover {
 
 .icon i {
     margin-bottom: 20px;
+	font-size: 4rem;
 }
 
 .command-line {
