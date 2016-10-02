@@ -96,7 +96,7 @@ body {
 }
 
 #content {
-    padding: 20px 0;
+    padding: 40px 0;
     font-size: 1.1rem;
 }
 
@@ -340,6 +340,7 @@ a.close:hover {
 }
 
 .icon {
+	margin-top: 20px;
     padding: 15px;
     font-size: 1.6rem;
     text-align: center;
@@ -386,6 +387,10 @@ iframe {
 }
 
 /* HELPERS */
+
+.text-upper {
+	text-transform: uppercase;
+}
 
 .text-center {
     text-align: center;
