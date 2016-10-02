@@ -195,7 +195,7 @@ a.btn:hover {
 }
 
 .btn-primary {
-    background-color: #34495e;
+    background-color: #333333;
     color: #ffffff;
     transition: background-color 0.5s;
 }
