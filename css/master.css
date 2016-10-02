@@ -161,11 +161,6 @@ p {
     line-height: 1.4rem;
 }
 
-.lead {
-    margin-bottom: 20px;
-    font-size: 1.4rem;
-}
-
 ul li:not(:last-child) {
 	margin-bottom: 10px;
 }
