@@ -105,16 +105,20 @@
             <div id="downloads" class="row">
                 <h2>Downloads</h2>
                 <div class="col-12 card">
-                    <h3>PPA (Ubuntu)</h3>
+                    <h3>PPAs (Ubuntu)</h3>
                     <hr>
-                    <div class="command-line">sudo add-apt-repository ppa:antumdeluge/debreate</div>
+                    <ul>
+                      <li>
+                        <i class="fa fa-external-link" aria-hidden="true"></i> <a href="https://launchpad.net/~antumdeluge/+archive/ubuntu/debreate">debreate</a> <span class="descr">(stable)</span>
+                      </li>
+                      <li>
+                        <i class="fa fa-external-link" aria-hidden="true"></i> <a href="https://launchpad.net/~antumdeluge/+archive/ubuntu/debreate-dev">debreate-dev</a> <span class="descr">(development)</span>
+                      </li>
+                    </ul>
+                    <hr>
+                    <div class="command-line">sudo add-apt-repository ppa:antumdeluge/&lt;ppaname&gt;</div>
                     <div class="command-line">sudo apt update</div>
                     <div class="command-line">sudo apt install debreate</div>
-                </div>
-                <div class="col-12 card">
-                    <h3>Development PPA</h3>
-                    <hr>
-                    <div class="command-line">ppa:antumdeluge/debreate-dev</div>
                 </div>
                 <div class="col-6 card">
                     <h3>Binaries</h3>
