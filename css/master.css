@@ -174,9 +174,9 @@ a:hover {
     text-decoration: underline;
 }
 
-span.descr {
+.descr {
     font-style: italic;
-    font-size: 75%;
+    font-size: 0.75rem;
 }
 
 /* BUTTONS */
