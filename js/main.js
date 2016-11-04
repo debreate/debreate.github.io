@@ -24,6 +24,21 @@ $(document).ready(function() {
 
     $.ajax({
         type: 'GET',
+        url: 'https://api.github.com/repos/AntumDeluge/debreate/releases/latest',
+        dataType: 'json',
+        success: function(data) {
+            var repo = 'https://github.com/AntumDeluge/debreate';
+            var deb = 'debreate_' + data['name'] + '_all.deb';
+            var zip = data['tag_name'] + '.zip';
+            var targz = data['tag_name'] + '.tar.gz';
+            $('.link-deb').attr('href', repo + '/releases/download/' + data['tag_name'] + '/' + deb).text(deb + ' (deb)');
+            $('.link-zip').attr('href', repo + '/archive/' + zip).text(zip + ' (zip)');
+            $('.link-targz').attr('href', repo + '/archive/' + targz).text(targz + ' (tar.gz)');
+        }
+    });
+
+    $.ajax({
+        type: 'GET',
         url: 'https://api.github.com/repos/AntumDeluge/debreate/contributors',
         dataType: 'json',
         success: function(data) {
