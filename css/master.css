@@ -118,14 +118,14 @@ body {
 }
 
 #navbar ul li {
-    display: inline-block;
+	display: inline-block;
 }
 
 #navbar ul li a {
     display: block;
     border-radius: 4px;
-	margin: 0 10px;
-    padding: 20px;
+	margin: 0 5px;
+    padding: 10px;
     color: #ffffff;
     text-transform: uppercase;
     transition: background-color 0.5s;
@@ -454,6 +454,11 @@ iframe {
     .col-4:last-child {
         margin-right: 0;
     }
+
+	#navbar ul li a {
+		margin: 0 10px;
+	    padding: 20px;
+	}
 
 	.modal > div {
 	  	width: 45%;
