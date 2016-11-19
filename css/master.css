@@ -85,7 +85,7 @@ body {
 
 #header {
     padding: 10px 0;
-    background: #e74c3c;
+    background: url('../img/pattern.png') #e74c3c;
     color: #ffffff;
     text-align: center;
 }
