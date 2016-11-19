@@ -212,7 +212,7 @@ a.btn:hover {
 
 .btn-secondary {
     border-color: #ffffff;
-    background-color: transparent;
+    background-color: #e74c3c;
     color: #ffffff;
     transition: background-color 0.5s;
 }
