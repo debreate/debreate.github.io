@@ -84,14 +84,14 @@ body {
 /* LAYOUT */
 
 #header {
-    padding: 20px 0;
-    background: linear-gradient(to bottom left, #c13223, #e74c3c) #e74c3c;
+    padding: 10px 0;
+    background: #e74c3c;
     color: #ffffff;
     text-align: center;
 }
 
 #home {
-    padding: 80px 0;
+    padding: 20px 0;
 }
 
 #content {
@@ -124,10 +124,11 @@ body {
 #navbar ul li a {
     display: block;
     border-radius: 4px;
-    padding: 20px 30px;
+	margin: 0 10px;
+    padding: 20px;
     color: #ffffff;
     text-transform: uppercase;
-    transition: opacity 0.5s;
+    transition: background-color 0.5s;
 }
 
 #navbar ul li a:hover {
@@ -190,7 +191,7 @@ a.btn:hover {
 
 .btn {
     margin: 10px;
-    padding: 30px 30px;
+    padding: 25px 20px;
     border: 2px solid transparent;
     border-radius: 40px;
 	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
