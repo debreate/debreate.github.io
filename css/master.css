@@ -460,6 +460,10 @@ iframe {
 	    padding: 20px;
 	}
 
+	#footer p:nth-child(2) {
+		text-align: right;
+	}
+
 	.modal > div {
 	  	width: 45%;
 	}
