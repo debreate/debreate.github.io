@@ -1,15 +1,8 @@
 $(document).ready(function() {
-    $('a[href*="#"]:not([href="#"]):not([href="#release-notes"])').click(function() {
-        if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
-            var target = $(this.hash);
-            target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-            if (target.length) {
-                $('html, body').animate({
-                    scrollTop: target.offset().top
-                }, 1000);
-                return false;
-            }
-        }
+    $('a[href*="#"]:not([href="#release-notes"])').click(function() {
+        var page = $(this).attr('href');
+        $('html, body').animate({ scrollTop: $(page).offset().top }, 500);
+        return false;
     });
 
     $.get('https://api.github.com/repos/AntumDeluge/debreate', function(data) {
