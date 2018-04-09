@@ -1,0 +1,439 @@
+INFO 2018-04-04T20:14:50 supybot Connecting to chat.freenode.net:6697.
+INFO 2018-04-04T20:15:01 supybot Server orwell.freenode.net has version ircd-seven-1.1.4
+INFO 2018-04-04T20:15:01 supybot Got end of MOTD from orwell.freenode.net
+INFO 2018-04-04T20:15:10 supybot Join to #debreate on freenode synced in 2.75 seconds.
+INFO 2018-04-04T20:22:27 supybot help called in private by "AntumDeluge!~AntumDelu@67-42-13-241.ptld.qwest.net".
+INFO 2018-04-04T20:22:37 supybot list called in private by "AntumDeluge!~AntumDelu@67-42-13-241.ptld.qwest.net".
+INFO 2018-04-04T20:22:49 supybot list called in private by "AntumDeluge!~AntumDelu@67-42-13-241.ptld.qwest.net".
+INFO 2018-04-04T20:23:04 supybot list called in private by "AntumDeluge!~AntumDelu@67-42-13-241.ptld.qwest.net".
+INFO 2018-04-04T20:23:16 supybot help called in private by "AntumDeluge!~AntumDelu@67-42-13-241.ptld.qwest.net".
+INFO 2018-04-04T20:23:25 supybot auth called in private by "AntumDeluge!~AntumDelu@67-42-13-241.ptld.qwest.net".
+INFO 2018-04-04T20:24:06 supybot user identify called in private by "AntumDeluge!~AntumDelu@67-42-13-241.ptld.qwest.net".
+INFO 2018-04-04T20:24:09 supybot auth called in private by "AntumDeluge!~AntumDelu@67-42-13-241.ptld.qwest.net".
+INFO 2018-04-04T20:24:34 supybot help called in private by "AntumDeluge!~AntumDelu@67-42-13-241.ptld.qwest.net".
+INFO 2018-04-04T20:24:48 supybot list called in private by "AntumDeluge!~AntumDelu@67-42-13-241.ptld.qwest.net".
+INFO 2018-04-04T20:24:57 supybot nick list called in private by "AntumDeluge!~AntumDelu@67-42-13-241.ptld.qwest.net".
+INFO 2018-04-04T20:25:06 supybot help called in private by "AntumDeluge!~AntumDelu@67-42-13-241.ptld.qwest.net".
+INFO 2018-04-04T20:25:18 supybot help called in private by "AntumDeluge!~AntumDelu@67-42-13-241.ptld.qwest.net".
+INFO 2018-04-04T20:26:10 supybot help called in private by "AntumDeluge!~AntumDelu@67-42-13-241.ptld.qwest.net".
+INFO 2018-04-04T20:26:13 supybot list called in private by "AntumDeluge!~AntumDelu@67-42-13-241.ptld.qwest.net".
+INFO 2018-04-04T20:26:29 supybot list called in private by "AntumDeluge!~AntumDelu@67-42-13-241.ptld.qwest.net".
+INFO 2018-04-04T20:26:43 supybot list called in private by "AntumDeluge!~AntumDelu@67-42-13-241.ptld.qwest.net".
+INFO 2018-04-04T20:27:04 supybot list called in private by "AntumDeluge!~AntumDelu@67-42-13-241.ptld.qwest.net".
+INFO 2018-04-04T20:27:12 supybot help called in private by "AntumDeluge!~AntumDelu@67-42-13-241.ptld.qwest.net".
+INFO 2018-04-04T20:27:47 supybot list called in private by "AntumDeluge!~AntumDelu@67-42-13-241.ptld.qwest.net".
+INFO 2018-04-04T20:27:56 supybot list called in private by "AntumDeluge!~AntumDelu@67-42-13-241.ptld.qwest.net".
+INFO 2018-04-04T20:28:19 supybot whoami called in private by "AntumDeluge!~AntumDelu@67-42-13-241.ptld.qwest.net".
+INFO 2018-04-04T20:28:25 supybot help called in private by "AntumDeluge!~AntumDelu@67-42-13-241.ptld.qwest.net".
+INFO 2018-04-04T20:28:46 supybot echo called in private by "AntumDeluge!~AntumDelu@67-42-13-241.ptld.qwest.net".
+INFO 2018-04-04T20:28:59 supybot echo called in private by "AntumDeluge!~AntumDelu@67-42-13-241.ptld.qwest.net".
+INFO 2018-04-04T20:29:07 supybot whois called in private by "AntumDeluge!~AntumDelu@67-42-13-241.ptld.qwest.net".
+INFO 2018-04-04T20:29:29 supybot help called in private by "AntumDeluge!~AntumDelu@67-42-13-241.ptld.qwest.net".
+INFO 2018-04-04T20:29:42 supybot identify called in private by "AntumDeluge!~AntumDelu@67-42-13-241.ptld.qwest.net".
+INFO 2018-04-04T20:30:01 supybot help called in private by "AntumDeluge!~AntumDelu@67-42-13-241.ptld.qwest.net".
+INFO 2018-04-04T20:30:11 supybot help called in private by "AntumDeluge!~AntumDelu@67-42-13-241.ptld.qwest.net".
+INFO 2018-04-04T20:30:15 supybot help called in private by "AntumDeluge!~AntumDelu@67-42-13-241.ptld.qwest.net".
+INFO 2018-04-04T20:30:21 supybot list called in private by "AntumDeluge!~AntumDelu@67-42-13-241.ptld.qwest.net".
+INFO 2018-04-04T20:30:37 supybot list called in private by "AntumDeluge!~AntumDelu@67-42-13-241.ptld.qwest.net".
+INFO 2018-04-04T20:30:50 supybot list called in private by "AntumDeluge!~AntumDelu@67-42-13-241.ptld.qwest.net".
+INFO 2018-04-04T20:31:05 supybot list called in private by "AntumDeluge!~AntumDelu@67-42-13-241.ptld.qwest.net".
+INFO 2018-04-04T20:31:19 supybot help called in private by "AntumDeluge!~AntumDelu@67-42-13-241.ptld.qwest.net".
+INFO 2018-04-04T20:31:45 supybot help called in private by "AntumDeluge!~AntumDelu@67-42-13-241.ptld.qwest.net".
+INFO 2018-04-04T20:31:52 supybot help called in private by "AntumDeluge!~AntumDelu@67-42-13-241.ptld.qwest.net".
+INFO 2018-04-04T20:31:58 supybot help called in private by "AntumDeluge!~AntumDelu@67-42-13-241.ptld.qwest.net".
+INFO 2018-04-04T20:32:02 supybot help called in private by "AntumDeluge!~AntumDelu@67-42-13-241.ptld.qwest.net".
+INFO 2018-04-04T20:32:25 supybot list called in private by "AntumDeluge!~AntumDelu@67-42-13-241.ptld.qwest.net".
+INFO 2018-04-04T20:32:31 supybot help called in private by "AntumDeluge!~AntumDelu@67-42-13-241.ptld.qwest.net".
+INFO 2018-04-04T20:32:58 supybot config list called in private by "AntumDeluge!~AntumDelu@67-42-13-241.ptld.qwest.net".
+INFO 2018-04-04T20:33:08 supybot config help called in private by "AntumDeluge!~AntumDelu@67-42-13-241.ptld.qwest.net".
+INFO 2018-04-04T20:33:13 supybot config help called in private by "AntumDeluge!~AntumDelu@67-42-13-241.ptld.qwest.net".
+INFO 2018-04-04T20:34:31 supybot help called in private by "AntumDeluge!~AntumDelu@67-42-13-241.ptld.qwest.net".
+INFO 2018-04-04T20:34:38 supybot list called in private by "AntumDeluge!~AntumDelu@67-42-13-241.ptld.qwest.net".
+INFO 2018-04-04T20:36:10 supybot help called in private by "AntumDeluge!~AntumDelu@67-42-13-241.ptld.qwest.net".
+INFO 2018-04-04T20:36:21 supybot help called in private by "AntumDeluge!~AntumDelu@67-42-13-241.ptld.qwest.net".
+INFO 2018-04-04T20:36:40 supybot ircquote called in private by "AntumDeluge!~AntumDelu@67-42-13-241.ptld.qwest.net".
+ERROR 2018-04-04T20:36:40 supybot Unhandled error message from server: IrcMsg(prefix="orwell.freenode.net", command="421", args=('Debreate', '/msg', 'Unknown command'))
+INFO 2018-04-04T20:37:20 supybot ircquote called in private by "AntumDeluge!~AntumDelu@67-42-13-241.ptld.qwest.net".
+ERROR 2018-04-04T20:37:20 supybot Unhandled error message from server: IrcMsg(prefix="orwell.freenode.net", command="421", args=('Debreate', 'msg', 'Unknown command'))
+INFO 2018-04-04T20:37:46 supybot ircquote called in private by "AntumDeluge!~AntumDelu@67-42-13-241.ptld.qwest.net".
+INFO 2018-04-04T20:38:03 supybot whois called in private by "AntumDeluge!~AntumDelu@67-42-13-241.ptld.qwest.net".
+INFO 2018-04-04T20:38:27 supybot help called in private by "AntumDeluge!~AntumDelu@67-42-13-241.ptld.qwest.net".
+INFO 2018-04-04T20:38:29 supybot list called in private by "AntumDeluge!~AntumDelu@67-42-13-241.ptld.qwest.net".
+INFO 2018-04-04T20:38:39 supybot list called in private by "AntumDeluge!~AntumDelu@67-42-13-241.ptld.qwest.net".
+INFO 2018-04-04T20:38:48 supybot list called in private by "AntumDeluge!~AntumDelu@67-42-13-241.ptld.qwest.net".
+INFO 2018-04-04T20:38:55 supybot help called in private by "AntumDeluge!~AntumDelu@67-42-13-241.ptld.qwest.net".
+INFO 2018-04-04T20:39:22 supybot help called in private by "AntumDeluge!~AntumDelu@67-42-13-241.ptld.qwest.net".
+INFO 2018-04-04T20:40:08 supybot network command called in private by "AntumDeluge!~AntumDelu@67-42-13-241.ptld.qwest.net".
+INFO 2018-04-04T20:40:18 supybot network command called in private by "AntumDeluge!~AntumDelu@67-42-13-241.ptld.qwest.net".
+INFO 2018-04-04T20:40:27 supybot list called in private by "AntumDeluge!~AntumDelu@67-42-13-241.ptld.qwest.net".
+INFO 2018-04-04T20:40:44 supybot config help called in private by "AntumDeluge!~AntumDelu@67-42-13-241.ptld.qwest.net".
+INFO 2018-04-04T20:40:49 supybot config help called in private by "AntumDeluge!~AntumDelu@67-42-13-241.ptld.qwest.net".
+INFO 2018-04-04T20:40:56 supybot config list called in private by "AntumDeluge!~AntumDelu@67-42-13-241.ptld.qwest.net".
+INFO 2018-04-04T20:41:10 supybot config list called in private by "AntumDeluge!~AntumDelu@67-42-13-241.ptld.qwest.net".
+INFO 2018-04-04T20:41:18 supybot config list called in private by "AntumDeluge!~AntumDelu@67-42-13-241.ptld.qwest.net".
+INFO 2018-04-04T20:41:37 supybot list called in private by "AntumDeluge!~AntumDelu@67-42-13-241.ptld.qwest.net".
+INFO 2018-04-04T20:43:34 supybot load called in private by "AntumDeluge!~AntumDelu@67-42-13-241.ptld.qwest.net".
+INFO 2018-04-04T20:43:47 supybot config help called in private by "AntumDeluge!~AntumDelu@67-42-13-241.ptld.qwest.net".
+INFO 2018-04-04T20:43:57 supybot config list called in private by "AntumDeluge!~AntumDelu@67-42-13-241.ptld.qwest.net".
+INFO 2018-04-04T20:44:11 supybot config help called in private by "AntumDeluge!~AntumDelu@67-42-13-241.ptld.qwest.net".
+INFO 2018-04-04T20:44:26 supybot config list called in private by "AntumDeluge!~AntumDelu@67-42-13-241.ptld.qwest.net".
+INFO 2018-04-04T20:44:36 supybot config help called in private by "AntumDeluge!~AntumDelu@67-42-13-241.ptld.qwest.net".
+INFO 2018-04-04T20:45:03 supybot list called in private by "AntumDeluge!~AntumDelu@67-42-13-241.ptld.qwest.net".
+INFO 2018-04-04T20:45:07 supybot list called in private by "AntumDeluge!~AntumDelu@67-42-13-241.ptld.qwest.net".
+INFO 2018-04-04T20:45:17 supybot list called in private by "AntumDeluge!~AntumDelu@67-42-13-241.ptld.qwest.net".
+INFO 2018-04-04T20:45:32 supybot help called in private by "AntumDeluge!~AntumDelu@67-42-13-241.ptld.qwest.net".
+INFO 2018-04-04T20:45:45 supybot help called in private by "AntumDeluge!~AntumDelu@67-42-13-241.ptld.qwest.net".
+INFO 2018-04-04T20:45:51 supybot help called in private by "AntumDeluge!~AntumDelu@67-42-13-241.ptld.qwest.net".
+INFO 2018-04-04T20:49:02 supybot list called in private by "AntumDeluge!~AntumDelu@67-42-13-241.ptld.qwest.net".
+INFO 2018-04-04T20:49:11 supybot config list called in private by "AntumDeluge!~AntumDelu@67-42-13-241.ptld.qwest.net".
+INFO 2018-04-04T20:49:21 supybot config help called in private by "AntumDeluge!~AntumDelu@67-42-13-241.ptld.qwest.net".
+INFO 2018-04-04T20:49:28 supybot config called in private by "AntumDeluge!~AntumDelu@67-42-13-241.ptld.qwest.net".
+INFO 2018-04-04T20:49:31 supybot config list called in private by "AntumDeluge!~AntumDelu@67-42-13-241.ptld.qwest.net".
+INFO 2018-04-04T20:49:45 supybot config list called in private by "AntumDeluge!~AntumDelu@67-42-13-241.ptld.qwest.net".
+INFO 2018-04-04T20:49:51 supybot config called in private by "AntumDeluge!~AntumDelu@67-42-13-241.ptld.qwest.net".
+INFO 2018-04-04T20:49:55 supybot config help called in private by "AntumDeluge!~AntumDelu@67-42-13-241.ptld.qwest.net".
+INFO 2018-04-04T20:54:04 supybot config called in private by "AntumDeluge!~AntumDelu@67-42-13-241.ptld.qwest.net".
+INFO 2018-04-04T20:54:28 supybot config called in private by "AntumDeluge!~AntumDelu@67-42-13-241.ptld.qwest.net".
+INFO 2018-04-04T20:54:39 supybot config called in private by "AntumDeluge!~AntumDelu@67-42-13-241.ptld.qwest.net".
+INFO 2018-04-04T20:54:50 supybot config list called in private by "AntumDeluge!~AntumDelu@67-42-13-241.ptld.qwest.net".
+INFO 2018-04-04T20:55:01 supybot config help called in private by "AntumDeluge!~AntumDelu@67-42-13-241.ptld.qwest.net".
+INFO 2018-04-04T20:55:13 supybot config list called in private by "AntumDeluge!~AntumDelu@67-42-13-241.ptld.qwest.net".
+INFO 2018-04-04T20:55:33 supybot config list called in private by "AntumDeluge!~AntumDelu@67-42-13-241.ptld.qwest.net".
+INFO 2018-04-04T20:55:38 supybot config help called in private by "AntumDeluge!~AntumDelu@67-42-13-241.ptld.qwest.net".
+INFO 2018-04-04T20:55:52 supybot config called in private by "AntumDeluge!~AntumDelu@67-42-13-241.ptld.qwest.net".
+INFO 2018-04-04T20:55:57 supybot config called in private by "AntumDeluge!~AntumDelu@67-42-13-241.ptld.qwest.net".
+INFO 2018-04-04T20:56:00 supybot config called in private by "AntumDeluge!~AntumDelu@67-42-13-241.ptld.qwest.net".
+INFO 2018-04-04T20:56:05 supybot config called in private by "AntumDeluge!~AntumDelu@67-42-13-241.ptld.qwest.net".
+INFO 2018-04-04T20:56:12 supybot config help called in private by "AntumDeluge!~AntumDelu@67-42-13-241.ptld.qwest.net".
+INFO 2018-04-04T20:56:26 supybot config called in private by "AntumDeluge!~AntumDelu@67-42-13-241.ptld.qwest.net".
+INFO 2018-04-04T20:56:29 supybot config called in private by "AntumDeluge!~AntumDelu@67-42-13-241.ptld.qwest.net".
+INFO 2018-04-04T20:57:14 supybot config called in private by "AntumDeluge!~AntumDelu@67-42-13-241.ptld.qwest.net".
+INFO 2018-04-04T20:57:20 supybot config help called in private by "AntumDeluge!~AntumDelu@67-42-13-241.ptld.qwest.net".
+INFO 2018-04-04T20:57:27 supybot config list called in private by "AntumDeluge!~AntumDelu@67-42-13-241.ptld.qwest.net".
+INFO 2018-04-04T20:57:41 supybot config help called in private by "AntumDeluge!~AntumDelu@67-42-13-241.ptld.qwest.net".
+INFO 2018-04-04T20:57:52 supybot config help called in private by "AntumDeluge!~AntumDelu@67-42-13-241.ptld.qwest.net".
+INFO 2018-04-04T20:58:52 supybot config called in private by "AntumDeluge!~AntumDelu@67-42-13-241.ptld.qwest.net".
+INFO 2018-04-04T21:04:45 supybot Exiting due to Ctrl-C.  If the bot doesn't exit within a few seconds, feel free to press Ctrl-C again to make it exit without flushing its message queues.
+INFO 2018-04-04T21:04:45 supybot Flushers flushed and garbage collected.
+INFO 2018-04-04T21:04:45 supybot Driver for Irc object for freenode dying.
+INFO 2018-04-04T21:04:45 supybot Irc object for freenode dying.
+INFO 2018-04-04T21:04:45 supybot Driver for Irc object for freenode dying.
+INFO 2018-04-04T21:04:45 supybot Removing driver SocketDriver(Irc object for freenode).
+INFO 2018-04-04T21:04:45 supybot Total uptime: 49 minutes and 55 seconds.
+INFO 2018-04-04T21:04:45 supybot Total CPU time taken: 1.31 seconds.
+INFO 2018-04-04T21:04:45 supybot No more Irc objects, exiting.
+INFO 2018-04-04T21:04:45 supybot Shutdown initiated.
+INFO 2018-04-04T21:04:45 supybot Killing Driver objects.
+INFO 2018-04-04T21:04:45 supybot Killing Irc objects.
+INFO 2018-04-04T21:04:45 supybot Writing registry file to Debreate.conf
+INFO 2018-04-04T21:04:45 supybot Finished writing registry file.
+INFO 2018-04-04T21:04:45 supybot Shutdown complete.
+INFO 2018-04-04T21:06:02 supybot Connecting to chat.freenode.net:6697.
+INFO 2018-04-04T21:06:10 supybot freenode: SASL authentication successful
+INFO 2018-04-04T21:06:10 supybot Server kornbluth.freenode.net has version ircd-seven-1.1.5
+INFO 2018-04-04T21:06:10 supybot Got end of MOTD from kornbluth.freenode.net
+INFO 2018-04-04T21:06:19 supybot Join to #debreate on freenode synced in 2.72 seconds.
+INFO 2018-04-04T21:16:21 supybot Exiting due to Ctrl-C.  If the bot doesn't exit within a few seconds, feel free to press Ctrl-C again to make it exit without flushing its message queues.
+INFO 2018-04-04T21:16:21 supybot Flushers flushed and garbage collected.
+INFO 2018-04-04T21:16:21 supybot Driver for Irc object for freenode dying.
+INFO 2018-04-04T21:16:21 supybot Irc object for freenode dying.
+INFO 2018-04-04T21:16:21 supybot Driver for Irc object for freenode dying.
+INFO 2018-04-04T21:16:21 supybot Removing driver SocketDriver(Irc object for freenode).
+INFO 2018-04-04T21:16:21 supybot Total uptime: 10 minutes and 19 seconds.
+INFO 2018-04-04T21:16:21 supybot Total CPU time taken: 1.06 seconds.
+INFO 2018-04-04T21:16:21 supybot No more Irc objects, exiting.
+INFO 2018-04-04T21:16:21 supybot Shutdown initiated.
+INFO 2018-04-04T21:16:21 supybot Killing Driver objects.
+INFO 2018-04-04T21:16:21 supybot Killing Irc objects.
+INFO 2018-04-04T21:16:21 supybot Writing registry file to Debreate.conf
+INFO 2018-04-04T21:16:21 supybot Finished writing registry file.
+INFO 2018-04-04T21:16:21 supybot Shutdown complete.
+INFO 2018-04-04T21:23:03 supybot Connecting to chat.freenode.net:6697.
+INFO 2018-04-04T21:23:14 supybot Server cherryh.freenode.net has version ircd-seven-1.1.4
+INFO 2018-04-04T21:23:14 supybot Got end of MOTD from cherryh.freenode.net
+INFO 2018-04-04T21:23:22 supybot Join to #debreate on freenode synced in 2.78 seconds.
+INFO 2018-04-04T21:23:48 supybot Exiting due to Ctrl-C.  If the bot doesn't exit within a few seconds, feel free to press Ctrl-C again to make it exit without flushing its message queues.
+INFO 2018-04-04T21:23:48 supybot Flushers flushed and garbage collected.
+INFO 2018-04-04T21:23:48 supybot Driver for Irc object for freenode dying.
+INFO 2018-04-04T21:23:48 supybot Irc object for freenode dying.
+INFO 2018-04-04T21:23:48 supybot Driver for Irc object for freenode dying.
+INFO 2018-04-04T21:23:48 supybot Removing driver SocketDriver(Irc object for freenode).
+INFO 2018-04-04T21:23:48 supybot Total uptime: 45 seconds.
+INFO 2018-04-04T21:23:48 supybot Total CPU time taken: 1.09 seconds.
+INFO 2018-04-04T21:23:48 supybot No more Irc objects, exiting.
+INFO 2018-04-04T21:23:48 supybot Shutdown initiated.
+INFO 2018-04-04T21:23:48 supybot Killing Driver objects.
+INFO 2018-04-04T21:23:48 supybot Killing Irc objects.
+INFO 2018-04-04T21:23:48 supybot Writing registry file to Debreate.conf
+INFO 2018-04-04T21:23:48 supybot Finished writing registry file.
+INFO 2018-04-04T21:23:48 supybot Shutdown complete.
+INFO 2018-04-04T21:31:29 supybot Connecting to chat.freenode.net:6697.
+WARNING 2018-04-04T21:31:36 supybot freenode: SASL authentication failed
+WARNING 2018-04-04T21:31:37 supybot freenode: SASL authentication aborted
+INFO 2018-04-04T21:31:37 supybot Server livingstone.freenode.net has version ircd-seven-1.1.5
+INFO 2018-04-04T21:31:37 supybot Got end of MOTD from livingstone.freenode.net
+INFO 2018-04-04T21:31:45 supybot Join to #debreate on freenode synced in 2.65 seconds.
+INFO 2018-04-04T21:32:24 supybot ircquote called in private by "AntumDeluge!~AntumDelu@67-42-13-241.ptld.qwest.net".
+INFO 2018-04-04T21:32:24 supybot Preventing AntumDeluge!~AntumDelu@67-42-13-241.ptld.qwest.net from calling owner.ircquote because of -owner.
+WARNING 2018-04-04T21:32:24 supybot Denying AntumDeluge!~AntumDelu@67-42-13-241.ptld.qwest.net for lacking "owner" capability.
+INFO 2018-04-04T21:32:40 supybot user identify called in private by "AntumDeluge!~AntumDelu@67-42-13-241.ptld.qwest.net".
+INFO 2018-04-04T21:32:43 supybot ircquote called in private by "AntumDeluge!~AntumDelu@67-42-13-241.ptld.qwest.net".
+INFO 2018-04-04T21:33:13 supybot Exiting due to Ctrl-C.  If the bot doesn't exit within a few seconds, feel free to press Ctrl-C again to make it exit without flushing its message queues.
+INFO 2018-04-04T21:33:13 supybot Flushers flushed and garbage collected.
+INFO 2018-04-04T21:33:13 supybot Driver for Irc object for freenode dying.
+INFO 2018-04-04T21:33:13 supybot Irc object for freenode dying.
+INFO 2018-04-04T21:33:13 supybot Driver for Irc object for freenode dying.
+INFO 2018-04-04T21:33:13 supybot Removing driver SocketDriver(Irc object for freenode).
+INFO 2018-04-04T21:33:13 supybot Total uptime: 1 minute and 44 seconds.
+INFO 2018-04-04T21:33:13 supybot Total CPU time taken: 1.11 seconds.
+INFO 2018-04-04T21:33:13 supybot No more Irc objects, exiting.
+INFO 2018-04-04T21:33:13 supybot Shutdown initiated.
+INFO 2018-04-04T21:33:13 supybot Killing Driver objects.
+INFO 2018-04-04T21:33:13 supybot Killing Irc objects.
+INFO 2018-04-04T21:33:13 supybot Writing registry file to Debreate.conf
+INFO 2018-04-04T21:33:13 supybot Finished writing registry file.
+INFO 2018-04-04T21:33:13 supybot Shutdown complete.
+INFO 2018-04-04T21:33:17 supybot Connecting to chat.freenode.net:6697.
+WARNING 2018-04-04T21:33:24 supybot freenode: SASL authentication failed
+WARNING 2018-04-04T21:33:24 supybot freenode: SASL authentication aborted
+INFO 2018-04-04T21:33:24 supybot Server verne.freenode.net has version ircd-seven-1.1.4
+INFO 2018-04-04T21:33:24 supybot Got end of MOTD from verne.freenode.net
+INFO 2018-04-04T21:33:31 supybot Exiting due to Ctrl-C.  If the bot doesn't exit within a few seconds, feel free to press Ctrl-C again to make it exit without flushing its message queues.
+INFO 2018-04-04T21:33:31 supybot Flushers flushed and garbage collected.
+INFO 2018-04-04T21:33:31 supybot Driver for Irc object for freenode dying.
+INFO 2018-04-04T21:33:31 supybot Irc object for freenode dying.
+INFO 2018-04-04T21:33:31 supybot Driver for Irc object for freenode dying.
+INFO 2018-04-04T21:33:31 supybot Removing driver SocketDriver(Irc object for freenode).
+INFO 2018-04-04T21:33:31 supybot Total uptime: 14 seconds.
+INFO 2018-04-04T21:33:31 supybot Total CPU time taken: 1.03 seconds.
+INFO 2018-04-04T21:33:31 supybot No more Irc objects, exiting.
+INFO 2018-04-04T21:33:31 supybot Shutdown initiated.
+INFO 2018-04-04T21:33:31 supybot Killing Driver objects.
+INFO 2018-04-04T21:33:31 supybot Killing Irc objects.
+INFO 2018-04-04T21:33:31 supybot Writing registry file to Debreate.conf
+INFO 2018-04-04T21:33:31 supybot Finished writing registry file.
+INFO 2018-04-04T21:33:31 supybot Shutdown complete.
+INFO 2018-04-04T21:35:42 supybot Connecting to chat.freenode.net:6697.
+WARNING 2018-04-04T21:35:51 supybot freenode: SASL authentication failed
+WARNING 2018-04-04T21:35:52 supybot freenode: SASL authentication aborted
+INFO 2018-04-04T21:35:52 supybot Server livingstone.freenode.net has version ircd-seven-1.1.5
+INFO 2018-04-04T21:35:52 supybot Got end of MOTD from livingstone.freenode.net
+INFO 2018-04-04T21:36:00 supybot Join to #debreate on freenode synced in 2.58 seconds.
+INFO 2018-04-04T21:37:04 supybot Exiting due to Ctrl-C.  If the bot doesn't exit within a few seconds, feel free to press Ctrl-C again to make it exit without flushing its message queues.
+INFO 2018-04-04T21:37:04 supybot Flushers flushed and garbage collected.
+INFO 2018-04-04T21:37:04 supybot Driver for Irc object for freenode dying.
+INFO 2018-04-04T21:37:04 supybot Irc object for freenode dying.
+INFO 2018-04-04T21:37:04 supybot Driver for Irc object for freenode dying.
+INFO 2018-04-04T21:37:04 supybot Removing driver SocketDriver(Irc object for freenode).
+INFO 2018-04-04T21:37:04 supybot Total uptime: 1 minute and 22 seconds.
+INFO 2018-04-04T21:37:04 supybot Total CPU time taken: 1.08 seconds.
+INFO 2018-04-04T21:37:04 supybot No more Irc objects, exiting.
+INFO 2018-04-04T21:37:04 supybot Shutdown initiated.
+INFO 2018-04-04T21:37:04 supybot Killing Driver objects.
+INFO 2018-04-04T21:37:04 supybot Killing Irc objects.
+INFO 2018-04-04T21:37:04 supybot Writing registry file to Debreate.conf
+INFO 2018-04-04T21:37:04 supybot Finished writing registry file.
+INFO 2018-04-04T21:37:04 supybot Shutdown complete.
+INFO 2018-04-04T21:37:30 supybot Connecting to chat.freenode.net:6697.
+WARNING 2018-04-04T21:37:38 supybot freenode: SASL authentication failed
+WARNING 2018-04-04T21:37:39 supybot freenode: SASL authentication aborted
+INFO 2018-04-04T21:37:39 supybot Server wolfe.freenode.net has version ircd-seven-1.1.4
+INFO 2018-04-04T21:37:39 supybot Got end of MOTD from wolfe.freenode.net
+INFO 2018-04-04T21:37:48 supybot Join to #debreate on freenode synced in 2.83 seconds.
+INFO 2018-04-04T21:38:32 supybot Exiting due to Ctrl-C.  If the bot doesn't exit within a few seconds, feel free to press Ctrl-C again to make it exit without flushing its message queues.
+INFO 2018-04-04T21:38:32 supybot Flushers flushed and garbage collected.
+INFO 2018-04-04T21:38:32 supybot Driver for Irc object for freenode dying.
+INFO 2018-04-04T21:38:32 supybot Irc object for freenode dying.
+INFO 2018-04-04T21:38:32 supybot Driver for Irc object for freenode dying.
+INFO 2018-04-04T21:38:32 supybot Removing driver SocketDriver(Irc object for freenode).
+INFO 2018-04-04T21:38:32 supybot Total uptime: 1 minute and 2 seconds.
+INFO 2018-04-04T21:38:32 supybot Total CPU time taken: 1.08 seconds.
+INFO 2018-04-04T21:38:32 supybot No more Irc objects, exiting.
+INFO 2018-04-04T21:38:32 supybot Shutdown initiated.
+INFO 2018-04-04T21:38:32 supybot Killing Driver objects.
+INFO 2018-04-04T21:38:32 supybot Killing Irc objects.
+INFO 2018-04-04T21:38:32 supybot Writing registry file to Debreate.conf
+INFO 2018-04-04T21:38:32 supybot Finished writing registry file.
+INFO 2018-04-04T21:38:32 supybot Shutdown complete.
+INFO 2018-04-04T21:39:07 supybot Connecting to chat.freenode.net:6697.
+WARNING 2018-04-04T21:39:08 supybot Could not find cert file /c/Users/antum/Development/Debreate/debreate-web/irc/supybot/Debreate.pem.
+WARNING 2018-04-04T21:39:19 supybot freenode: SASL authentication failed
+WARNING 2018-04-04T21:39:19 supybot freenode: SASL authentication aborted
+INFO 2018-04-04T21:39:19 supybot Server wolfe.freenode.net has version ircd-seven-1.1.4
+INFO 2018-04-04T21:39:21 supybot Got end of MOTD from wolfe.freenode.net
+INFO 2018-04-04T21:39:29 supybot Join to #debreate on freenode synced in 3.17 seconds.
+INFO 2018-04-04T21:39:43 supybot Exiting due to Ctrl-C.  If the bot doesn't exit within a few seconds, feel free to press Ctrl-C again to make it exit without flushing its message queues.
+INFO 2018-04-04T21:39:43 supybot Flushers flushed and garbage collected.
+INFO 2018-04-04T21:39:43 supybot Driver for Irc object for freenode dying.
+INFO 2018-04-04T21:39:43 supybot Irc object for freenode dying.
+INFO 2018-04-04T21:39:43 supybot Driver for Irc object for freenode dying.
+INFO 2018-04-04T21:39:43 supybot Removing driver SocketDriver(Irc object for freenode).
+INFO 2018-04-04T21:39:43 supybot Total uptime: 35 seconds.
+INFO 2018-04-04T21:39:43 supybot Total CPU time taken: 1.03 seconds.
+INFO 2018-04-04T21:39:43 supybot No more Irc objects, exiting.
+INFO 2018-04-04T21:39:43 supybot Shutdown initiated.
+INFO 2018-04-04T21:39:43 supybot Killing Driver objects.
+INFO 2018-04-04T21:39:43 supybot Killing Irc objects.
+INFO 2018-04-04T21:39:43 supybot Writing registry file to Debreate.conf
+INFO 2018-04-04T21:39:43 supybot Finished writing registry file.
+INFO 2018-04-04T21:39:43 supybot Shutdown complete.
+INFO 2018-04-04T21:41:14 supybot Connecting to chat.freenode.net:6697.
+WARNING 2018-04-04T21:41:26 supybot freenode: SASL authentication failed
+WARNING 2018-04-04T21:41:27 supybot freenode: SASL authentication aborted
+INFO 2018-04-04T21:41:27 supybot Server wolfe.freenode.net has version ircd-seven-1.1.4
+INFO 2018-04-04T21:41:27 supybot Got end of MOTD from wolfe.freenode.net
+INFO 2018-04-04T21:41:35 supybot Join to #debreate on freenode synced in 2.62 seconds.
+INFO 2018-04-04T21:41:48 supybot user identify called in private by "AntumDeluge!~AntumDelu@67-42-13-241.ptld.qwest.net".
+INFO 2018-04-04T21:42:09 supybot owner ircquote called in private by "AntumDeluge!~AntumDelu@67-42-13-241.ptld.qwest.net".
+INFO 2018-04-04T21:43:23 supybot owner ircquote called in private by "AntumDeluge!~AntumDelu@67-42-13-241.ptld.qwest.net".
+INFO 2018-04-04T21:43:50 supybot owner ircquote called in private by "AntumDeluge!~AntumDelu@67-42-13-241.ptld.qwest.net".
+INFO 2018-04-04T21:44:03 supybot owner ircquote called in private by "AntumDeluge!~AntumDelu@67-42-13-241.ptld.qwest.net".
+INFO 2018-04-04T21:45:19 supybot Exiting due to Ctrl-C.  If the bot doesn't exit within a few seconds, feel free to press Ctrl-C again to make it exit without flushing its message queues.
+INFO 2018-04-04T21:45:19 supybot Flushers flushed and garbage collected.
+INFO 2018-04-04T21:45:19 supybot Driver for Irc object for freenode dying.
+INFO 2018-04-04T21:45:19 supybot Irc object for freenode dying.
+INFO 2018-04-04T21:45:19 supybot Driver for Irc object for freenode dying.
+INFO 2018-04-04T21:45:19 supybot Removing driver SocketDriver(Irc object for freenode).
+INFO 2018-04-04T21:45:19 supybot Total uptime: 4 minutes and 5 seconds.
+INFO 2018-04-04T21:45:19 supybot Total CPU time taken: 1.05 seconds.
+INFO 2018-04-04T21:45:19 supybot No more Irc objects, exiting.
+INFO 2018-04-04T21:45:19 supybot Shutdown initiated.
+INFO 2018-04-04T21:45:19 supybot Killing Driver objects.
+INFO 2018-04-04T21:45:19 supybot Killing Irc objects.
+INFO 2018-04-04T21:45:19 supybot Writing registry file to Debreate.conf
+INFO 2018-04-04T21:45:19 supybot Finished writing registry file.
+INFO 2018-04-04T21:45:19 supybot Shutdown complete.
+INFO 2018-04-04T21:45:24 supybot Connecting to chat.freenode.net:6697.
+INFO 2018-04-04T21:45:36 supybot freenode: SASL authentication successful
+INFO 2018-04-04T21:45:36 supybot Server kornbluth.freenode.net has version ircd-seven-1.1.5
+INFO 2018-04-04T21:45:37 supybot Got end of MOTD from kornbluth.freenode.net
+INFO 2018-04-04T21:45:45 supybot Join to #debreate on freenode synced in 2.74 seconds.
+INFO 2018-04-04T21:56:10 supybot Exiting due to Ctrl-C.  If the bot doesn't exit within a few seconds, feel free to press Ctrl-C again to make it exit without flushing its message queues.
+INFO 2018-04-04T21:56:10 supybot Flushers flushed and garbage collected.
+INFO 2018-04-04T21:56:10 supybot Driver for Irc object for freenode dying.
+INFO 2018-04-04T21:56:10 supybot Irc object for freenode dying.
+INFO 2018-04-04T21:56:10 supybot Driver for Irc object for freenode dying.
+INFO 2018-04-04T21:56:10 supybot Removing driver SocketDriver(Irc object for freenode).
+INFO 2018-04-04T21:56:10 supybot Total uptime: 10 minutes and 46 seconds.
+INFO 2018-04-04T21:56:10 supybot Total CPU time taken: 1.05 seconds.
+INFO 2018-04-04T21:56:10 supybot No more Irc objects, exiting.
+INFO 2018-04-04T21:56:10 supybot Shutdown initiated.
+INFO 2018-04-04T21:56:10 supybot Killing Driver objects.
+INFO 2018-04-04T21:56:10 supybot Killing Irc objects.
+INFO 2018-04-04T21:56:10 supybot Writing registry file to Debreate.conf
+INFO 2018-04-04T21:56:10 supybot Finished writing registry file.
+INFO 2018-04-04T21:56:10 supybot Shutdown complete.
+INFO 2018-04-04T22:59:41 supybot Connecting to chat.freenode.net:6697.
+INFO 2018-04-04T22:59:52 supybot freenode: SASL authentication successful
+INFO 2018-04-04T22:59:52 supybot Server kornbluth.freenode.net has version ircd-seven-1.1.5
+INFO 2018-04-04T22:59:52 supybot Got end of MOTD from kornbluth.freenode.net
+INFO 2018-04-04T23:00:01 supybot Join to #debreate on freenode synced in 2.96 seconds.
+INFO 2018-04-04T23:00:29 supybot user identify called in private by "AntumDeluge!~AntumDelu@67-42-13-241.ptld.qwest.net".
+INFO 2018-04-04T23:59:43 supybot Flushers flushed and garbage collected.
+INFO 2018-04-05T00:59:44 supybot Flushers flushed and garbage collected.
+INFO 2018-04-05T01:59:44 supybot Flushers flushed and garbage collected.
+INFO 2018-04-05T02:59:44 supybot Flushers flushed and garbage collected.
+INFO 2018-04-05T03:59:45 supybot Flushers flushed and garbage collected.
+INFO 2018-04-05T04:59:46 supybot Flushers flushed and garbage collected.
+INFO 2018-04-05T05:59:46 supybot Flushers flushed and garbage collected.
+INFO 2018-04-05T06:59:47 supybot Flushers flushed and garbage collected.
+INFO 2018-04-05T07:59:48 supybot Flushers flushed and garbage collected.
+INFO 2018-04-05T08:59:48 supybot Flushers flushed and garbage collected.
+INFO 2018-04-05T09:59:48 supybot Flushers flushed and garbage collected.
+INFO 2018-04-05T10:59:49 supybot Flushers flushed and garbage collected.
+INFO 2018-04-05T11:59:50 supybot Flushers flushed and garbage collected.
+INFO 2018-04-05T12:59:50 supybot Flushers flushed and garbage collected.
+INFO 2018-04-05T13:59:51 supybot Flushers flushed and garbage collected.
+INFO 2018-04-05T14:59:51 supybot Flushers flushed and garbage collected.
+INFO 2018-04-05T15:59:52 supybot Flushers flushed and garbage collected.
+INFO 2018-04-05T16:59:52 supybot Flushers flushed and garbage collected.
+INFO 2018-04-05T17:59:53 supybot Flushers flushed and garbage collected.
+INFO 2018-04-05T18:59:53 supybot Flushers flushed and garbage collected.
+INFO 2018-04-05T19:59:54 supybot Flushers flushed and garbage collected.
+INFO 2018-04-05T20:59:54 supybot Flushers flushed and garbage collected.
+INFO 2018-04-05T21:59:55 supybot Flushers flushed and garbage collected.
+INFO 2018-04-05T22:59:56 supybot Flushers flushed and garbage collected.
+INFO 2018-04-05T23:59:57 supybot Flushers flushed and garbage collected.
+INFO 2018-04-06T00:59:57 supybot Flushers flushed and garbage collected.
+INFO 2018-04-06T01:59:58 supybot Flushers flushed and garbage collected.
+INFO 2018-04-06T02:59:58 supybot Flushers flushed and garbage collected.
+INFO 2018-04-06T03:59:59 supybot Flushers flushed and garbage collected.
+INFO 2018-04-06T04:59:59 supybot Flushers flushed and garbage collected.
+INFO 2018-04-06T06:00:00 supybot Flushers flushed and garbage collected.
+INFO 2018-04-06T07:00:00 supybot Flushers flushed and garbage collected.
+INFO 2018-04-06T08:00:00 supybot Flushers flushed and garbage collected.
+INFO 2018-04-06T09:00:01 supybot Flushers flushed and garbage collected.
+INFO 2018-04-06T10:00:01 supybot Flushers flushed and garbage collected.
+INFO 2018-04-06T11:00:01 supybot Flushers flushed and garbage collected.
+INFO 2018-04-06T12:00:02 supybot Flushers flushed and garbage collected.
+INFO 2018-04-06T13:00:02 supybot Flushers flushed and garbage collected.
+INFO 2018-04-06T14:00:03 supybot Flushers flushed and garbage collected.
+INFO 2018-04-06T15:00:03 supybot Flushers flushed and garbage collected.
+INFO 2018-04-06T16:00:03 supybot Flushers flushed and garbage collected.
+INFO 2018-04-06T17:00:03 supybot Flushers flushed and garbage collected.
+INFO 2018-04-06T18:00:03 supybot Flushers flushed and garbage collected.
+INFO 2018-04-06T19:00:04 supybot Flushers flushed and garbage collected.
+INFO 2018-04-06T20:00:05 supybot Flushers flushed and garbage collected.
+INFO 2018-04-06T21:00:05 supybot Flushers flushed and garbage collected.
+INFO 2018-04-06T22:00:06 supybot Flushers flushed and garbage collected.
+INFO 2018-04-06T23:00:06 supybot Flushers flushed and garbage collected.
+INFO 2018-04-07T00:00:07 supybot Flushers flushed and garbage collected.
+INFO 2018-04-07T01:00:08 supybot Flushers flushed and garbage collected.
+INFO 2018-04-07T02:00:08 supybot Flushers flushed and garbage collected.
+INFO 2018-04-07T03:00:09 supybot Flushers flushed and garbage collected.
+INFO 2018-04-07T04:00:09 supybot Flushers flushed and garbage collected.
+INFO 2018-04-07T05:00:10 supybot Flushers flushed and garbage collected.
+INFO 2018-04-07T06:00:10 supybot Flushers flushed and garbage collected.
+INFO 2018-04-07T07:00:11 supybot Flushers flushed and garbage collected.
+INFO 2018-04-07T08:00:11 supybot Flushers flushed and garbage collected.
+INFO 2018-04-07T09:00:12 supybot Flushers flushed and garbage collected.
+INFO 2018-04-07T10:00:13 supybot Flushers flushed and garbage collected.
+INFO 2018-04-07T11:00:14 supybot Flushers flushed and garbage collected.
+INFO 2018-04-07T12:00:14 supybot Flushers flushed and garbage collected.
+INFO 2018-04-07T13:00:15 supybot Flushers flushed and garbage collected.
+INFO 2018-04-07T14:00:15 supybot Flushers flushed and garbage collected.
+INFO 2018-04-07T15:00:16 supybot Flushers flushed and garbage collected.
+INFO 2018-04-07T16:00:16 supybot Flushers flushed and garbage collected.
+INFO 2018-04-07T17:00:17 supybot Flushers flushed and garbage collected.
+INFO 2018-04-07T18:00:17 supybot Flushers flushed and garbage collected.
+INFO 2018-04-07T19:00:18 supybot Flushers flushed and garbage collected.
+INFO 2018-04-07T20:00:19 supybot Flushers flushed and garbage collected.
+INFO 2018-04-07T21:00:19 supybot Flushers flushed and garbage collected.
+INFO 2018-04-07T22:00:20 supybot Flushers flushed and garbage collected.
+INFO 2018-04-07T23:00:20 supybot Flushers flushed and garbage collected.
+INFO 2018-04-08T00:00:20 supybot Flushers flushed and garbage collected.
+INFO 2018-04-08T01:00:21 supybot Flushers flushed and garbage collected.
+INFO 2018-04-08T02:00:22 supybot Flushers flushed and garbage collected.
+INFO 2018-04-08T03:00:23 supybot Flushers flushed and garbage collected.
+INFO 2018-04-08T04:00:23 supybot Flushers flushed and garbage collected.
+INFO 2018-04-08T05:00:24 supybot Flushers flushed and garbage collected.
+INFO 2018-04-08T06:00:25 supybot Flushers flushed and garbage collected.
+INFO 2018-04-08T07:00:26 supybot Flushers flushed and garbage collected.
+INFO 2018-04-08T08:00:26 supybot Flushers flushed and garbage collected.
+INFO 2018-04-08T09:00:26 supybot Flushers flushed and garbage collected.
+INFO 2018-04-08T10:00:26 supybot Flushers flushed and garbage collected.
+INFO 2018-04-08T11:00:27 supybot Flushers flushed and garbage collected.
+INFO 2018-04-08T12:00:28 supybot Flushers flushed and garbage collected.
+INFO 2018-04-08T13:00:29 supybot Flushers flushed and garbage collected.
+INFO 2018-04-08T14:00:29 supybot Flushers flushed and garbage collected.
+INFO 2018-04-08T15:00:30 supybot Flushers flushed and garbage collected.
+INFO 2018-04-08T16:00:30 supybot Flushers flushed and garbage collected.
+INFO 2018-04-08T17:00:31 supybot Flushers flushed and garbage collected.
+INFO 2018-04-08T18:00:32 supybot Flushers flushed and garbage collected.
+INFO 2018-04-08T19:00:33 supybot Flushers flushed and garbage collected.
+INFO 2018-04-08T20:00:33 supybot Flushers flushed and garbage collected.
+INFO 2018-04-08T20:57:49 supybot Exiting due to Ctrl-C.  If the bot doesn't exit within a few seconds, feel free to press Ctrl-C again to make it exit without flushing its message queues.
+INFO 2018-04-08T20:57:49 supybot Flushers flushed and garbage collected.
+INFO 2018-04-08T20:57:49 supybot Driver for Irc object for freenode dying.
+INFO 2018-04-08T20:57:49 supybot Irc object for freenode dying.
+INFO 2018-04-08T20:57:49 supybot Driver for Irc object for freenode dying.
+INFO 2018-04-08T20:57:49 supybot Removing driver SocketDriver(Irc object for freenode).
+INFO 2018-04-08T20:57:49 supybot Total uptime: 3 days, 21 hours, 58 minutes, and 8 seconds.
+INFO 2018-04-08T20:57:49 supybot Total CPU time taken: 11.66 seconds.
+INFO 2018-04-08T20:57:49 supybot No more Irc objects, exiting.
+INFO 2018-04-08T20:57:49 supybot Shutdown initiated.
+INFO 2018-04-08T20:57:49 supybot Killing Driver objects.
+INFO 2018-04-08T20:57:49 supybot Killing Irc objects.
+INFO 2018-04-08T20:57:49 supybot Writing registry file to Debreate.conf
+INFO 2018-04-08T20:57:49 supybot Finished writing registry file.
+INFO 2018-04-08T20:57:49 supybot Shutdown complete.
