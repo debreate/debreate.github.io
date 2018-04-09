@@ -1,0 +1,12 @@
+2018-04-08T21:16:52  *** Debreate <Debreate!~limnoria@67-42-13-241.ptld.qwest.net> has joined #debreate
+2018-04-08T21:19:03  <AntumDeluge> @ircquote msg ChanServ op #debreate
+2018-04-08T21:19:23  <AntumDeluge> @ircquote msg ChanServ op Debreate
+2018-04-08T21:20:10  <AntumDeluge> @ircquote ChanServ op Debreate
+2018-04-08T21:20:23  <AntumDeluge> @help ircquote
+2018-04-08T21:20:23  <Debreate> AntumDeluge: (ircquote <string to be sent to the server>) -- Sends the raw string given to the server. 
+2018-04-08T21:20:45  *** AntumDeluge sets mode: +o Debreate
+2018-04-08T21:21:02  <AntumDeluge> Hello Debreate. It's quiet in here.
+2018-04-08T21:21:10  <AntumDeluge> @echo It sure it. :)
+2018-04-08T21:21:10  <Debreate> It sure it. :)
+2018-04-08T21:22:35  <AntumDeluge> @echo $channel
+2018-04-08T21:22:35  <Debreate> #debreate

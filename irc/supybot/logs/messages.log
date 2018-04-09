@@ -437,3 +437,25 @@ INFO 2018-04-08T20:57:49 supybot Killing Irc objects.
 INFO 2018-04-08T20:57:49 supybot Writing registry file to Debreate.conf
 INFO 2018-04-08T20:57:49 supybot Finished writing registry file.
 INFO 2018-04-08T20:57:49 supybot Shutdown complete.
+INFO 2018-04-08T21:16:38 supybot Connecting to chat.freenode.net:6697.
+INFO 2018-04-08T21:16:46 supybot freenode: SASL authentication successful
+INFO 2018-04-08T21:16:46 supybot Server kornbluth.freenode.net has version ircd-seven-1.1.5
+INFO 2018-04-08T21:16:47 supybot Got end of MOTD from kornbluth.freenode.net
+INFO 2018-04-08T21:16:55 supybot Join to #debreate on freenode synced in 2.76 seconds.
+INFO 2018-04-08T21:17:57 supybot user identify called in private by "AntumDeluge!~AntumDelu@67-42-13-241.ptld.qwest.net".
+INFO 2018-04-08T21:19:03 supybot ircquote called on #debreate by "AntumDeluge!~AntumDelu@67-42-13-241.ptld.qwest.net".
+ERROR 2018-04-08T21:19:04 supybot Unhandled error message from server: IrcMsg(prefix="kornbluth.freenode.net", command="421", args=('Debreate', 'msg', 'Unknown command'))
+INFO 2018-04-08T21:19:23 supybot ircquote called on #debreate by "AntumDeluge!~AntumDelu@67-42-13-241.ptld.qwest.net".
+ERROR 2018-04-08T21:19:23 supybot Unhandled error message from server: IrcMsg(prefix="kornbluth.freenode.net", command="421", args=('Debreate', 'msg', 'Unknown command'))
+INFO 2018-04-08T21:19:44 supybot ircquote called in private by "AntumDeluge!~AntumDelu@67-42-13-241.ptld.qwest.net".
+ERROR 2018-04-08T21:19:45 supybot Unhandled error message from server: IrcMsg(prefix="kornbluth.freenode.net", command="421", args=('Debreate', 'msg', 'Unknown command'))
+INFO 2018-04-08T21:20:01 supybot ircquote called in private by "AntumDeluge!~AntumDelu@67-42-13-241.ptld.qwest.net".
+INFO 2018-04-08T21:20:10 supybot ircquote called on #debreate by "AntumDeluge!~AntumDelu@67-42-13-241.ptld.qwest.net".
+INFO 2018-04-08T21:20:23 supybot help called on #debreate by "AntumDeluge!~AntumDelu@67-42-13-241.ptld.qwest.net".
+INFO 2018-04-08T21:21:10 supybot echo called on #debreate by "AntumDeluge!~AntumDelu@67-42-13-241.ptld.qwest.net".
+INFO 2018-04-08T21:21:36 supybot echo called in private by "AntumDeluge!~AntumDelu@67-42-13-241.ptld.qwest.net".
+INFO 2018-04-08T21:21:43 supybot echo called in private by "AntumDeluge!~AntumDelu@67-42-13-241.ptld.qwest.net".
+INFO 2018-04-08T21:21:51 supybot help called in private by "AntumDeluge!~AntumDelu@67-42-13-241.ptld.qwest.net".
+INFO 2018-04-08T21:22:22 supybot echo called in private by "AntumDeluge!~AntumDelu@67-42-13-241.ptld.qwest.net".
+INFO 2018-04-08T21:22:25 supybot echo called in private by "AntumDeluge!~AntumDelu@67-42-13-241.ptld.qwest.net".
+INFO 2018-04-08T21:22:35 supybot echo called on #debreate by "AntumDeluge!~AntumDelu@67-42-13-241.ptld.qwest.net".
