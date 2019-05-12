@@ -234,10 +234,6 @@ a.btn:hover {
     transition: opacity 0.5s;
 }
 
-.card:hover {
-    opacity: 0.6;
-}
-
 .card h2 {
 	margin-bottom: 0;
 }
