@@ -1,0 +1,29 @@
+
+@font-face {
+  font-family: "Amaranth";
+  src: url("/data/font/Amaranth-Regular.ttf");
+}
+@font-face {
+  font-family: "Amaranth Bold";
+  src: url("/data/font/Amaranth-Bold.ttf");
+}
+@font-face {
+  font-family: "Amaranth Italic";
+  src: url("/data/font/Amaranth-Italic.ttf");
+}
+@font-face {
+  font-family: "Amaranth BoldItalic";
+  src: url("/data/font/Amaranth-BoldItalic.ttf");
+}
+
+body {
+  font-family: "Amaranth";
+}
+
+.title {
+  font-size: 3em;
+}
+
+p {
+  font-size: 2em;
+}
