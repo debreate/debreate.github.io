@@ -35,22 +35,21 @@ body {
   opacity: 0.1;
 }
 
-.title-box {
+.title-box, div.title {
   display: flex;
   gap: 10px;
+}
+
+.title-box {
   padding-top: 1.5em;
   padding-bottom: 1.5em;
   background-color: #485e50a7;
   width: 100%;
 }
 
-.logo {
-  margin-left: auto;
-}
-
 .title {
   font-size: 3em;
-  margin-right: auto;
+  margin: auto;
 }
 
 .main-box {
