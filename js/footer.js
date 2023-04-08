@@ -14,6 +14,12 @@ window.onload = function() {
       {href: "https://opengameart.org/node/24035", text: "Crystal Hammer"},
       " licensed under ",
       {href: "https://creativecommons.org/publicdomain/zero/1.0/", text: "Creative Commons Zero"}
+    ],
+    [
+      "Amaranth fonts by ",
+      {href: "https://www.gesine-todt.de/", text: "Gesine Todt"},
+      " licensed under ",
+      {href: "/res/font/OFL.txt", text: "SIL Open Font License"}
     ]
   ];
 
