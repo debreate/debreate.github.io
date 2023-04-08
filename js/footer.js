@@ -7,7 +7,14 @@
  ****************************************************/
 
 
+// don't destroy handler from other scripts
+const onload_orig = window.onload;
+
 window.onload = function() {
+  if (onload_orig) {
+    onload_orig();
+  }
+
   const data = [
     [
       "background image by ",
