@@ -1,19 +1,19 @@
 
 @font-face {
   font-family: "Amaranth";
-  src: url("/data/font/Amaranth-Regular.ttf");
+  src: url("/res/font/Amaranth-Regular.ttf");
 }
 @font-face {
   font-family: "Amaranth Bold";
-  src: url("/data/font/Amaranth-Bold.ttf");
+  src: url("/res/font/Amaranth-Bold.ttf");
 }
 @font-face {
   font-family: "Amaranth Italic";
-  src: url("/data/font/Amaranth-Italic.ttf");
+  src: url("/res/font/Amaranth-Italic.ttf");
 }
 @font-face {
   font-family: "Amaranth BoldItalic";
-  src: url("/data/font/Amaranth-BoldItalic.ttf");
+  src: url("/res/font/Amaranth-BoldItalic.ttf");
 }
 
 body {
@@ -31,7 +31,7 @@ body {
   left: 0;
   right: 0;
   overflow: auto;
-  background-image: url("/data/desert_cracks_d.jpg");
+  background-image: url("/res/desert_cracks_d.jpg");
   opacity: 0.1;
 }
 
