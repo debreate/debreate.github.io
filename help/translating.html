@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+
+
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Translating Debreate</title>
+  <link rel="stylesheet" type="text/css" href="/css/main.css">
+</head>
+
+<body>
+  <a name="top"></a>
+  <div class="title-box">
+    <img class="logo" src="/data/debreate64.png">
+    <div class="title">Translating Debreate</div>
+  </div>
+
+  <div class="main-box">
+    <div class="box center">
+      <p><em>
+        This page is from the
+        <a href="https://debreate.sourceforge.net/index-old.php?page=translate">old site</a> &amp;
+        may be outdated.
+      </em></p>
+
+      <p><a href="/">take me back</a></p>
+    </div>
+
+    <div class="box">
+      <h1>Translating with Poedit</h1>
+
+      <p>
+        <b>NOTE:</b> I noticed that some of the translators were using a program called
+        <a href="http://www.poedit.net/" target="_main">Poedit</a>, so I decided to try it out. It
+        is a great tool and simplifies the translation process. I recommend using it. After you
+        download <a href="">Debreate's .pot file</a>, just open Poedit, go to the File menu and
+        select "New catalog from POT file". Open Debreate's .pot and begin translating. When you
+        save the translated .po file it will automatically compile it into a binary .mo file. This
+        is much simpler and quicker than the instructions I have laid out below. But I will keep
+        them up because they may be helpful.
+      </p>
+
+      <p>
+        Another important note, if you see two curly braces ({}) or a percent followed by an "s"
+        (%s) in the original .pot file these need to be kept in the translation. These are symbols
+        that the program uses for substituting text. For example if you see this:
+      </p>
+
+      <blockquote><p>"Debreate version {}" or "Debreate version %s"</p></blockquote>
+
+      <p>The program will replace "{}" or "%s" with Debreate's current version number.</p>
+    </div>
+
+    <div class="box">
+      <h1>Translating without Poedit</h1>
+
+      <p>
+        The first thing to do is to install gettext (it will probably already be installed along
+        with Debreate):
+      </p>
+
+      <p class="terminal">sudo apt-get install gettext</p>
+
+      <p>Now copy Debreate's .pot file to your current directory:</p>
+
+      <p class="terminal">cp /usr/share/debreate/locale/debreate.pot ./debreate.po</p>
+
+      <p>
+        You can also get the current .pot file
+        <a href="https://debreate.sourceforge.net/files/debreate.pot.zip">here</a>.
+      </p>
+
+      <p>
+        Generally the translated files are renamed with a .po extension, but it will not affect
+        anything if you do not change it. Now edit the file with your favorite text editor. The file
+        should look something like this:
+      </p>
+
+      <img src="/data/screenshot/po-orig.png">
+
+      <p>
+        The first line that we need to look at is pictured as line 16. You need to change the
+        encoding type. It will probably be UTF-8, so change this line:
+      </p>
+      <p class="terminal">
+      "Content-Type: text/plain; charset=CHARSET\n"
+      </p>
+      <p>To this:</p>
+      <p class="terminal">"Content-Type: text/plain; charset=UTF-8\n"</p>
+
+      <p>
+        Now we are ready to begin translating. Below you will see sections with fields "msgid" and
+        "msgstr". The "msgid" field will be followed by the original text in quotations. "msgstr"
+        will be followed by empty quotations. Translate the text in the "msgid" field and enter into
+        the "msgstr" field.
+      </p>
+
+      <img src="/data/screenshot/po-es.png">
+
+      <p>
+        When you are done save and close it. Now we need to compile it into binary. Use the
+        following command:
+      </p>
+      <p class="terminal">msgfmt debreate.po -o debreate.mo</p>
+
+      <p>
+        This binary file needs to be placed in Debreate's locale directory. But first we need to
+        make a couple of sub-directories. You first need to create a sub-directory for your
+        language. For example if you are translating to Spanish, you would create the directory
+        called "es" (If the translation is specific to a country you can use the country code in the
+        filename: "es_MX" for Mexico). Then inside the "es" directory, create a folder called
+        LC_MESSAGES:
+      </p>
+      <p class="terminal">sudo mkdir -p /usr/share/debreate/locale/es/LC_MESSAGES</p>
+
+      <p>Now place the .mo file into that directory:</p>
+      <p class="terminal">sudo cp debreate.mo /usr/share/debreate/locale/es/LC_MESSAGES</p>
+
+      <p>
+        You are all finished. Now open Debreate to view your translation. If you would like your
+        translation to be distributed with debreate, send me a copy of the edited .po file. I will
+        also include your name in Debreate's credits unless you state that you do not want that. Let
+        me know how you want your name/alias to be displayed or I will just write it as I see it in
+        your email.
+      </p>
+    </div>
+
+    <div class="box">
+      <p>
+        In future versions Debreate's displayed text may change, causing translated .po files to
+        become outdated. If you would like to update an existing .po file you can do the following:
+        Get a copy of the
+        <a href="https://debreate.sourceforge.net/files/debreate.pot.zip">most current .pot file</a>
+        and use the following command to update the old .po translation:
+      </p>
+      <p class="terminal">msgmerge -U debreate.po debreate.pot</p>
+
+      <p>
+        You can optionally use the "--lang" argument to set the language of the output .po file:
+      </p>
+      <p class="terminal">msgmerge -U --lang=es_MX debreate.po debreate.pot</p>
+
+      <p>Now translate any empty "msgstr" fields in the updated .po translation file.</p>
+
+      <p class="center"><a href="#top">back to top</a></p>
+    </div>
+  </div>
+
+  <div class="background"></div>
+</body>
+</html>

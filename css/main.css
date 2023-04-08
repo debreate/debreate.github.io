@@ -82,10 +82,19 @@ body {
   text-align:center;
 }
 
-p {
+p, .terminal {
   font-size: 1.5em;
 }
 
 ul {
   font-size: 1.5em;
+}
+
+.center {
+  text-align: center;
+}
+
+.terminal {
+  font-family: monospace;
+  text-indent: 20px;
 }
