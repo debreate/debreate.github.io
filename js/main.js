@@ -37,6 +37,7 @@ const main = {
         this.setLatestStable(rel["tag_name"], rel["assets"]);
       }
     }
+    sessionStorage.setItem("assets", JSON.stringify(this.releases));
     this.initDownloads();
   },
 
@@ -88,10 +89,14 @@ const main = {
 
 
 window.onload = function() {
-  // TODO: cache release information in session storage or web cache
-
-  // get release information
-  main.fetchJSON("https://api.github.com/repos/debreate/debreate/releases", (data) => {
-    main.onReleaseAvailable(data);
-  });
+  const tmp = sessionStorage.getItem("assets");
+  if (tmp) {
+    main.releases = JSON.parse(tmp);
+    main.initDownloads();
+  } else {
+    // get release information
+    main.fetchJSON("https://api.github.com/repos/debreate/debreate/releases", (data) => {
+      main.onReleaseAvailable(data);
+    });
+  }
 }
