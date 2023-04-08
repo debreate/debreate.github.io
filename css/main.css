@@ -18,7 +18,7 @@
 
 body {
   display: block;
-  background-image: url("/data/background.png");
+  background-image: url("/data/desert_cracks_d.jpg");
   font-family: "Amaranth";
 }
 
@@ -32,6 +32,10 @@ body {
 .title {
   display: inline;
   font-size: 3em;
+}
+
+.footer {
+  text-align:center;
 }
 
 p {
