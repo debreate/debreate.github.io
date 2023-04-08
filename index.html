@@ -60,6 +60,34 @@
       </p>
     </div>
 
+    <div class="box flex-col">
+      <h1>Starting Debreate (0.8 development versions)</h1>
+      <p>
+        If you installed Debreate through a package manager or using the supplied .deb package,
+        there will be an icon in your system's menu. If you downloaded the portable .zip or source
+        package, just execute the file named <tt>init.py</tt>.
+      </p>
+
+      <p>
+        Debreate requires two main sofware to launch successfully. It needs
+        <a href="https://python.org/">Python</a> (>=3.10) &amp;
+        <a href="https://wxpython.org/">wxPython</a> (>=4.0, recommended at least 4.1.1). Most
+        major Linux distributions will have Python pre-installed. But you may need to install
+        wxPython manually if you are running Debreate portably. If wxPython is not found on the
+        system when launching it will prompt to install using <a href="https://pypi.org">pip</a>.
+        If <tt>init.py</tt> was not launched from a terminal command line, it will attempt to find
+        &amp; open an appropriate terminal application for prompt input. If approved, it will
+        execute <tt>python3 -m pip install wheel attrdict3 wxPython</tt>. Once installed, the user
+        interface should open. Some terminals (gnome-terminal &amp; mate-terminal) seem to drop the
+        process afterwards, so the GUI won't display until it is run again.
+      </p>
+
+      <p>
+        For other sofware that is required for full function, see the
+        <a href="https://github.com/debreate/debreate#requirements">README</a>.
+      </p>
+    </div>
+
     <div class="box l-col">
       <h1>Links</h1>
       <ul>

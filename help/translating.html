@@ -45,7 +45,7 @@
         that the program uses for substituting text. For example if you see this:
       </p>
 
-      <blockquote><p>"Debreate version {}" or "Debreate version %s"</p></blockquote>
+      <p class="indent">"Debreate version {}" or "Debreate version %s"</p>
 
       <p>The program will replace "{}" or "%s" with Debreate's current version number.</p>
     </div>
@@ -58,11 +58,11 @@
         with Debreate):
       </p>
 
-      <p class="terminal">sudo apt-get install gettext</p>
+      <p class="terminal indent">sudo apt-get install gettext</p>
 
       <p>Now copy Debreate's .pot file to your current directory:</p>
 
-      <p class="terminal">cp /usr/share/debreate/locale/debreate.pot ./debreate.po</p>
+      <p class="terminal indent">cp /usr/share/debreate/locale/debreate.pot ./debreate.po</p>
 
       <p>
         You can also get the current .pot file
@@ -81,11 +81,11 @@
         The first line that we need to look at is pictured as line 16. You need to change the
         encoding type. It will probably be UTF-8, so change this line:
       </p>
-      <p class="terminal">
+      <p class="terminal indent">
       "Content-Type: text/plain; charset=CHARSET\n"
       </p>
       <p>To this:</p>
-      <p class="terminal">"Content-Type: text/plain; charset=UTF-8\n"</p>
+      <p class="terminal indent">"Content-Type: text/plain; charset=UTF-8\n"</p>
 
       <p>
         Now we are ready to begin translating. Below you will see sections with fields "msgid" and
@@ -100,7 +100,7 @@
         When you are done save and close it. Now we need to compile it into binary. Use the
         following command:
       </p>
-      <p class="terminal">msgfmt debreate.po -o debreate.mo</p>
+      <p class="terminal indent">msgfmt debreate.po -o debreate.mo</p>
 
       <p>
         This binary file needs to be placed in Debreate's locale directory. But first we need to
@@ -110,10 +110,10 @@
         filename: "es_MX" for Mexico). Then inside the "es" directory, create a folder called
         LC_MESSAGES:
       </p>
-      <p class="terminal">sudo mkdir -p /usr/share/debreate/locale/es/LC_MESSAGES</p>
+      <p class="terminal indent">sudo mkdir -p /usr/share/debreate/locale/es/LC_MESSAGES</p>
 
       <p>Now place the .mo file into that directory:</p>
-      <p class="terminal">sudo cp debreate.mo /usr/share/debreate/locale/es/LC_MESSAGES</p>
+      <p class="terminal indent">sudo cp debreate.mo /usr/share/debreate/locale/es/LC_MESSAGES</p>
 
       <p>
         You are all finished. Now open Debreate to view your translation. If you would like your
@@ -132,12 +132,12 @@
         <a href="https://debreate.sourceforge.net/files/debreate.pot.zip">most current .pot file</a>
         and use the following command to update the old .po translation:
       </p>
-      <p class="terminal">msgmerge -U debreate.po debreate.pot</p>
+      <p class="terminal indent">msgmerge -U debreate.po debreate.pot</p>
 
       <p>
         You can optionally use the "--lang" argument to set the language of the output .po file:
       </p>
-      <p class="terminal">msgmerge -U --lang=es_MX debreate.po debreate.pot</p>
+      <p class="terminal indent">msgmerge -U --lang=es_MX debreate.po debreate.pot</p>
 
       <p>Now translate any empty "msgstr" fields in the updated .po translation file.</p>
 

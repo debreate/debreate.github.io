@@ -81,7 +81,7 @@ body {
   text-align:center;
 }
 
-p, .terminal {
+p {
   font-size: 1.5em;
 }
 
@@ -93,7 +93,17 @@ ul {
   text-align: center;
 }
 
+tt, .terminal {
+  color: #ffffff;
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 3px;
+  border-radius: 3px;
+}
+
 .terminal {
   font-family: monospace;
-  text-indent: 20px;
+}
+
+.indent {
+  text-indent: 30px;
 }
