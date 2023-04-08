@@ -32,11 +32,13 @@
         <b>NOTE:</b> I noticed that some of the translators were using a program called
         <a href="http://www.poedit.net/" target="_main">Poedit</a>, so I decided to try it out. It
         is a great tool and simplifies the translation process. I recommend using it. After you
-        download <a href="">Debreate's .pot file</a>, just open Poedit, go to the File menu and
-        select "New catalog from POT file". Open Debreate's .pot and begin translating. When you
-        save the translated .po file it will automatically compile it into a binary .mo file. This
-        is much simpler and quicker than the instructions I have laid out below. But I will keep
-        them up because they may be helpful.
+        download
+        <a href="https://raw.githubusercontent.com/debreate/debreate/master/locale/debreate.pot">
+        Debreate's .pot file</a>, just open Poedit, go to the File menu and select "New catalog from
+        POT file". Open Debreate's .pot and begin translating. When you save the translated .po file
+        it will automatically compile it into a binary .mo file. This is much simpler and quicker
+        than the instructions I have laid out below. But I will keep them up because they may be
+        helpful.
       </p>
 
       <p>
@@ -66,7 +68,7 @@
 
       <p>
         You can also get the current .pot file
-        <a href="https://debreate.sourceforge.net/files/debreate.pot.zip">here</a>.
+        <a href="https://raw.githubusercontent.com/debreate/debreate/master/locale/debreate.pot">here</a>.
       </p>
 
       <p>
@@ -129,8 +131,9 @@
         In future versions Debreate's displayed text may change, causing translated .po files to
         become outdated. If you would like to update an existing .po file you can do the following:
         Get a copy of the
-        <a href="https://debreate.sourceforge.net/files/debreate.pot.zip">most current .pot file</a>
-        and use the following command to update the old .po translation:
+        <a href="https://raw.githubusercontent.com/debreate/debreate/master/locale/debreate.pot">
+          most current .pot file</a> and use the following command to update the old .po
+          translation:
       </p>
       <p class="terminal indent">msgmerge -U debreate.po debreate.pot</p>
 
