@@ -18,20 +18,60 @@
 
 body {
   display: block;
-  background-image: url("/data/desert_cracks_d.jpg");
   font-family: "Amaranth";
+  padding: 0 10px;
+  background-color: #f0e68c;
+}
+
+.background {
+  z-index: -1;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  overflow: auto;
+  background-image: url("/data/desert_cracks_d.jpg");
+  opacity: 0.1;
 }
 
 .title-box {
+  display: flex;
+  gap: 10px;
   padding-top: 1.5em;
   padding-bottom: 1.5em;
   background-color: #485e50a7;
-  text-align: center;
+  width: 100%;
+}
+
+.logo {
+  margin-left: auto;
 }
 
 .title {
-  display: inline;
   font-size: 3em;
+  margin-right: auto;
+}
+
+.main-box {
+  display: grid;
+  padding: 10px 0;
+  gap: 10px;
+}
+
+.area {
+  border: solid;
+  border-radius: 5px;
+  padding: 0 20px 0 20px;
+  background-color: #ffffff3f
+}
+
+.sidebar {
+  grid-column: 1;
+}
+
+.info {
+  grid-column: 2;
 }
 
 .footer {
@@ -39,7 +79,7 @@ body {
 }
 
 p {
-  font-size: 2em;
+  font-size: 1.5em;
 }
 
 ul {

@@ -15,23 +15,54 @@
 
 <body>
   <div class="title-box">
-    <p class="title">Debreate - Debian Package Builder</p>
+    <img class="logo" src="data/debreate64.png">
+    <div class="title">Debreate - Debian Package Builder</div>
   </div>
 
-  <div>
-    <p>Under construction ...</p>
+  <div class="main-box">
+    <div class="sidebar area">
+      <p>Links</p>
 
-    <ul>
-      <li><a href="https://github.com/debreate/debreate">GitHub Project</a></li>
-      <li><a href="https://gitlab.com/AntumDeluge/debreate">GitLab Project</a></li>
-      <li><a href="https://sourceforge.net/projects/debreate">SourceForge Project</a></li>
-      <li><a href="libdbr/">libdbr</a></li>
-      <li><a href="https://github.com/debreate/debreate/releases">Downloads</a></li>
-    </ul>
+      <ul>
+        <li><a href="https://github.com/debreate/debreate">GitHub Project</a></li>
+        <li><a href="https://gitlab.com/AntumDeluge/debreate">GitLab Project</a></li>
+        <li><a href="https://sourceforge.net/projects/debreate">SourceForge Project</a></li>
+        <li><a href="libdbr/">libdbr</a></li>
+        <li><a href="https://github.com/debreate/debreate/releases">Downloads</a></li>
+      </ul>
+    </div>
+
+    <div class="info area">
+      <h1>Description</h1>
+      <p>
+        Debreate is a utility to aid in creating
+        <a href="https://wikipedia.org/wiki/Deb_(file_format)">Debian (.deb)</a> packages. Currently
+        it only
+        supports binary packaging for personal distribution (<em>note that the term "binary package"
+        is used loosely, as such packages can contain scripts &amp; non-code items such as media
+        images, audio, &amp; more</em>). Plans for using backends such as
+        <a href="https://salsa.debian.org/debian/dh-make">dh_make</a> &amp;
+        <a href="https://packages.ubuntu.com/devscripts">debuild</a> for creating source packages
+        are in the works. But source packaging can be quite different &amp; is a must if you want to
+        get your packages into a distribution's official repositories or a
+        <a href="https://launchpad.net/">Launchpad</a>
+        <a href="https://wikipedia.org/wiki/Ubuntu#Package_Archives">Personal Package Archive (PPA)
+        </a>. The latter from which
+        <a href="https://launchpad.net/~antumdeluge/+archive/ubuntu/debreate">Debreate is available
+        </a>.
+      </p>
+
+      <h1>Licensing</h1>
+      <p>
+        Debreate &amp; libdbr are licensed under <a href="LICENSE.txt">MIT</a>.
+      </p>
+    </div>
   </div>
 
   <div class="footer">
     background image by <a href="https://opengameart.org/node/24035">Crystal Hammer</a> (CC0)
   </div>
+
+  <div class="background"></div>
 </body>
 </html>
