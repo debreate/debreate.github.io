@@ -82,8 +82,16 @@ body {
   text-align:center;
 }
 
+.footer-line {
+  margin-bottom: 5px;
+}
+
 p {
   font-size: 1.5em;
+}
+
+.small {
+  font-size: 100%;
 }
 
 ul {

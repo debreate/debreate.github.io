@@ -23,14 +23,12 @@ window.onload = function() {
     ]
   ];
 
-  //~ for (const footer of document.getElementsByClassName("footer")) {
-  //~ }
-
   const footer = document.createElement("div");
   footer.classList.add("footer");
 
   for (const line of data) {
     const d = document.createElement("div");
+    d.className = "footer-line small";
     for (const elem of line) {
       if (typeof(elem) === "string") {
         d.innerHTML += elem;
