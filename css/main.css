@@ -59,18 +59,22 @@ body {
   gap: 10px;
 }
 
-.area {
+.box {
   border: solid;
   border-radius: 5px;
   padding: 0 20px 0 20px;
   background-color: #ffffff3f
 }
 
-.sidebar {
+.flex-col {
+  grid-column: span 2;
+}
+
+.l-col {
   grid-column: 1;
 }
 
-.info {
+.r-col {
   grid-column: 2;
 }
 
