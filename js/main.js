@@ -29,6 +29,7 @@ const main = {
       if (rel["draft"] || !rel["tag_name"].match(/^v[0-9]/)) {
         continue;
       }
+      // TODO: don't show pre-release if lastest is not development version
       if (rel["prerelease"] && !this.releases.dev) {
         // grab first pre-release
         this.setLatestDev(rel["tag_name"], rel["assets"]);
@@ -58,6 +59,7 @@ const main = {
   },
 
   initDownloads: function() {
+    // TODO: show PPA links in downloads section
     if (this.releases.stable) {
       const title = document.getElementById("title-stable");
       title.innerText = "Stable: " + this.releases.stable.name;
