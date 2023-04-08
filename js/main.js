@@ -59,7 +59,6 @@ const main = {
   },
 
   initDownloads: function() {
-    // TODO: show PPA links in downloads section
     if (this.releases.stable) {
       const title = document.getElementById("title-stable");
       title.innerText = "Stable: " + this.releases.stable.name;
