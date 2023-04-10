@@ -61,7 +61,8 @@ const main = {
   initDownloads: function() {
     if (this.releases.stable) {
       const title = document.getElementById("title-stable");
-      title.innerText = "Stable: " + this.releases.stable.name;
+      //~ title.innerText = "Stable: " + this.releases.stable.name;
+      title.innerText = "Stable: " + this.releases.stable.name + " (currently outdated)";
       const list = document.getElementById("assets-stable");
       for (const pair of this.releases.stable.assets) {
         const line = document.createElement("li");
