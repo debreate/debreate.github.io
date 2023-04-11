@@ -16,7 +16,7 @@
 </head>
 
 <body>
-  <div class="title-box">
+  <div class="title-box" id="top">
     <div class="title">
       <img class="logo" src="/res/debreate64.png">
       <span>Debreate - Debian Package Builder</span>
@@ -24,8 +24,24 @@
   </div>
 
   <div class="main-box">
-    <div class="box flex-col">
-      <h1>Notice</h1>
+    <div class="box flex-col" id="toc">
+      <h1>Contents</h1>
+      <ul>
+        <li><a href="#notice">Notice</a></li>
+        <li><a href="#description">Description</a></li>
+        <li><a href="#licensing">Licensing</a></li>
+        <li><a href="#starting">Starting Debreate</a></li>
+        <li><a href="#notes">Notes</a></li>
+        <ul>
+          <li><a href="#wxpython-compat">wxPython Compatibility</a></li>
+          <li><a href="#non-debian">Using on Non-Debian Systems</a></li>
+        </ul>
+        <li><a href="#links">Navigation &amp; Links</a></li>
+      </ul>
+    </div>
+
+    <div class="box flex-col" id="notice">
+      <h1><a href="#toc">Notice</a></h1>
       <p><em>
         The software is in a state of revival. The old versions that are labelled as "stable" do
         not work well on modern operating systems. It is recommended to use a development version,
@@ -33,8 +49,8 @@
       </em></p>
     </div>
 
-    <div class="box flex-col">
-      <h1>Description</h1>
+    <div class="box flex-col" id="description">
+      <h1><a href="#toc">Description</a></h1>
       <p>
         Debreate is a utility to aid in creating installable
         <a href="https://wikipedia.org/wiki/Deb_(file_format)">Debian (.deb)</a> packages.
@@ -60,15 +76,15 @@
       </p>
     </div>
 
-    <div class="box flex-col">
-      <h1>Licensing</h1>
+    <div class="box flex-col" id="licensing">
+      <h1><a href="#toc">Licensing</a></h1>
       <p>
         Debreate &amp; libdbr are licensed under <a href="LICENSE.txt">MIT</a>.
       </p>
     </div>
 
-    <div class="box flex-col">
-      <h1>Starting Debreate (0.8 development versions)</h1>
+    <div class="box flex-col" id="starting">
+      <h1><a href="#toc">Starting Debreate (0.8 development versions)</a></h1>
       <p>
         If you installed Debreate through a package manager or using the supplied .deb package,
         there will be an icon in your system's menu. If you downloaded the portable .zip or source
@@ -78,7 +94,7 @@
       <p>
         Debreate requires two main sofware to launch successfully. It needs
         <a href="https://python.org/">Python</a> (>=3.10) &amp;
-        <a href="https://wxpython.org/">wxPython</a> (>=4.0, recommended at least 4.1.1). Most
+        <a href="https://wxpython.org/">wxPython</a> (>=4.0.7, recommended at least 4.2.0). Most
         major Linux distributions will have Python pre-installed. But you may need to install
         wxPython manually if you are running Debreate portably. If wxPython is not found on the
         system when launching it will prompt to install using <a href="https://pypi.org">pip</a>.
@@ -95,7 +111,61 @@
       </p>
     </div>
 
-    <div class="box l-col">
+    <div class="box flex-col" id="notes">
+      <h1><a href="#toc">Notes</a></h1>
+
+      <h2 id="wxpython-compat"><a href="#toc">wxPython Compatibility</a></h2>
+      <p>
+        Debreate relies heavily on wxPython for its user interface. Most linux distributions provide
+        versions from their package managers. As of writing this, Ubuntu supplies
+        <a href="https://packages.ubuntu.com/python3-wxgtk4.0">version 4.0</a>. However, there are
+        some things broken in 4.0 &amp; 4.1 that have been fixed in version 4.2. Namely, the
+        directory tree control. If your wxPython version is less than 4.2.0, you will not be able
+        to use the built-in directory tree to add files to your project. Drag-and-drop from the
+        system filemanager still does work. The minimum required version to launch the application
+        is 4.0.7. Anything older, &amp; the application will attempt to launch an error dialog with
+        a notification that the installed version is unsupported.
+      </p>
+
+      <p>
+        If your system's package manager does not supply version 4.2, it is recommended to install
+        the latest version via the <a href="https://pypi.org/project/wxPython/">Python Package
+        Index</a>. That can be done with the command <tt>python3 -m pip install wxPython</tt> or
+        <tt>pip3 install wxPython</tt>.
+      </p>
+
+      <p>
+        Unless fixes are backported to older versions, it is likely support for anything older than
+        4.2 will be dropped very soon. Because systems such as Ubuntu are not yet distributing the
+        latest release, it complicates things when installing Debreate from it's .deb package.
+        Previously wxPython was made to be a hard dependency. But as a workaround, since the
+        recommended version is not yet available, it is made as an alternative dependency to the
+        <a href="https://packages.ubuntu.com/python3-pip">python3-pip package</a>. This allows it
+        to be installed despite wxPython not being on the system. When launched without wxPython, it
+        attempts to prompt the user to install via pip.
+      </p>
+
+      <h2 id="non-debian"><a href="#toc">Using on Non-Debian Systems</a></h2>
+      <p>
+        The software is tested on Debian based systems. It is unknown how it will function on other
+        operating systems. It is likely the application will start, but package building will fail
+        unless the Debian packaging backend tools are installed.
+      </p>
+
+      <p>
+        Some testing has been done on Windows just to get the application running. As of yet, it
+        will not fully function.
+      </p>
+
+      <p>
+        Support for wxPython on Windows under the native Python installers seems to be lacking.
+        Attempts to install via pip have failed or ended up in corrupt packages. Fortunately, the
+        <a href="https://www.msys2.org/">MSYS2/MinGW-w64 project</a> provides a working package. It
+        can be installed via pacman (<tt>pacman -S &lt;repo&gt;-wxPython</tt>).
+      </p>
+    </div>
+
+    <div class="box l-col" id="links">
       <h1>Navigation</h1>
       <ul>
         <li><a href="/help/usage.html">Using Debreate</a></li>
@@ -126,6 +196,12 @@
         <li><a href="https://launchpad.net/~antumdeluge/+archive/ubuntu/debreate-dev">development</a>
         (currently outdated)</li>
       </ul>
+    </div>
+
+    <div class="box flex-col">
+      <center><p>
+        <a href="#top">back to top</a>
+      </p></center>
     </div>
   </div>
 
