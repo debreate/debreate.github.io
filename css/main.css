@@ -116,3 +116,7 @@ tt, .terminal {
 .indent {
   text-indent: 30px;
 }
+
+img.app-screen {
+  width: 50%;
+}
