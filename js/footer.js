@@ -7,14 +7,7 @@
  ****************************************************/
 
 
-// don't destroy handler from other scripts
-const onload_orig = window.onload;
-
-window.onload = function() {
-  if (onload_orig) {
-    onload_orig();
-  }
-
+window.addCallBack(function() {
   const data = [
     [
       "background image by ",
@@ -47,4 +40,4 @@ window.onload = function() {
   }
 
   document.body.appendChild(footer);
-}
+});

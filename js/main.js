@@ -90,7 +90,7 @@ const main = {
 };
 
 
-window.onload = function() {
+window.addCallBack(function() {
   const tmp = sessionStorage.getItem("assets");
   if (tmp) {
     main.releases = JSON.parse(tmp);
@@ -101,4 +101,4 @@ window.onload = function() {
       main.onReleaseAvailable(data);
     });
   }
-}
+});
