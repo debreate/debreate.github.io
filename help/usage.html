@@ -114,41 +114,109 @@
     <a name="control"></a>
     <div class="box">
       <h1><a href="#toc-box">Control File</a></h1>
+      <p>
+        .deb packages contain the file <tt>DEBIAN/control</tt>. This file contains meta information
+        about the package. Such as the package name, package version, author, &amp; requirements.
+        This page is the first half of filling out the control file information.
+      </p>
+
+      <a class="app-screen" href="/res/screenshot/02-control.png"></a>
+
+      <p>
+        It is divided into three sections: Required, recommended, &amp; optional. Fields under the
+        required section must be filled out to build a package.
+      </p>
+
+      <p>
+        Detailed information on the purpose of each field can be read in the
+        <a href="https://www.debian.org/doc/debian-policy/ch-controlfields.html#binary-package-control-files-debian-control">
+        binary package control files</a> section of the Debian Policy Manual.
+      </p>
+
+      <p>
+        The three buttons on the top-right of the page allow you to do the following:
+        <ul>
+          <li><img src="/res/button/browse.png" title="browse"> Load control information from a file.</li>
+          <li><img src="/res/button/save.png" title="save"> Export control information to file.</li>
+          <li><img src="/res/button/preview.png" title="preview"> Preview the formatted information.</li>
+        </ul>
+      </p>
     </div>
 
     <a name="depends"></a>
     <div class="box">
       <h1><a href="#toc-box">Dependencies &amp; Conflicts</a></h1>
+
+      <p>
+        Though on a separate page, dependencies &amp; conflicts are part of the control file.
+      </p>
+
+      <a class="app-screen" href="/res/screenshot/03-dependencies.png"></a>
+
+      <p>
+        To add an entry, select the type of dependency or conflict from the available categories.
+        Enter the name of the package &amp; optionally version information. Press the
+        <img src="/res/button/add.png" title="add"> button to add it to the list. If there is an
+        alternative that can be used in place of a package, fill out the fields for the alternative
+        package (category must be the same), then select the item from the list of packages already
+        added &amp; press the <img src="/res/button/append.png" title="append"> button. Individual
+        packages can be removed from the list with the <img src="/res/button/remove.png"
+        title="remove"> button. And the entire list can be emptied with the
+        <img src="/res/button/clear.png" title="clear"> button.
+      </p>
+
+      <p>
+        The three buttons in upper-right of this page have the same functions as on the Control
+        page.
+      </p>
+
+      <p>
+        More information on
+        <a href="https://www.debian.org/doc/debian-policy/ch-relationships.html#s-binarydeps">
+        Binary Dependencies</a> in the Debian Policy Manual.
+      </p>
     </div>
 
     <a name="files"></a>
     <div class="box">
       <h1><a href="#toc-box">Files</a></h1>
+
+      <a class="app-screen" href="/res/screenshot/04-files.png"></a>
     </div>
 
     <a name="scripts"></a>
     <div class="box">
       <h1><a href="#toc-box">Scripts</a></h1>
+
+      <a class="app-screen" href="/res/screenshot/05-scripts.png"></a>
     </div>
 
     <a name="changelog"></a>
     <div class="box">
       <h1><a href="#toc-box">Changelog</a></h1>
+
+      <a class="app-screen" href="/res/screenshot/06-changelog.png"></a>
     </div>
 
     <a name="copyright"></a>
     <div class="box">
       <h1><a href="#toc-box">Copyright</a></h1>
+
+      <a class="app-screen" href="/res/screenshot/07-copyright.png"></a>
     </div>
 
     <a name="menu"></a>
     <div class="box">
       <h1><a href="#toc-box">Menu</a></h1>
+
+      <a class="app-screen" href="/res/screenshot/08-menu.png"></a>
     </div>
 
     <a name="build"></a>
     <div class="box">
       <h1><a href="#toc-box">Build</a></h1>
+
+      <a class="app-screen" href="/res/screenshot/09-build.png"></a>
     </div>
 
     <div class="box center">
