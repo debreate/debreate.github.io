@@ -18,8 +18,8 @@
   <div class="main-box">
     <div class="box center">
       <p><em>This page is a work-in-progress. See
-      <a href="https://debreate.sourceforge.net/res/doc/usage_en.pdf">this old PDF file</a> for more
-      complete usage information.</a></em></p>
+      <a href="https://debreate.sourceforge.net/res/doc/usage_en.pdf">this old PDF file</a> for any
+      information that may be missing here.</a></em></p>
       <p><a href="/">take me back</a></p>
     </div>
 
@@ -186,9 +186,34 @@
     <div class="box">
       <h1><a href="#toc-box">Files</a></h1>
 
-      <p><em>TODO:</em></p>
+      <p>
+        This section is for the main contents of the package that will be installed to the target
+        system (<em>currently some of the features are broken</em>). Files are organized by where
+        they will reside on the system directory tree when installed.
+      </p>
 
       <a class="app-screen" href="/res/screenshot/04-files.png"></a>
+
+      <p>
+        Files &amp; directories can be added to the target list via the built-in directory tree on
+        the left panel or by drag-and-drop from a system file manager. To use the directory tree,
+        select the files &amp; directories you want to add. Set the target path from one of the
+        pre-defined options or use the custom path input. When you are ready, press
+        <img src="/res/button/add.png" title="add"> to import them into to file list. Or right-click
+        the directory tree to bring up a context menu &amp; select "Add to project". The app will
+        try to detect file MimeTypes &amp; executability. Executable files are denoted by red text.
+        It should be noted that files cannot be set as executable from within the app (yet). It must
+        be executable on the filesystem before importing.
+      </p>
+
+      <p>
+        <img src="/res/button/remove.png" title="remove"> can be used to delete selected items from
+        the item list. <img src="/res/button/clear.png" title="remove"> will remove all items.
+        <img src="/res/button/browse.png" title="browse"> is used to open a dialog to select a path
+        to be used for the target directory.
+      </p>
+
+      <p><b>TODO:</b> info about options</p>
     </div>
 
     <a name="scripts"></a>
