@@ -111,6 +111,8 @@
       </p>
 
       <a class="app-screen" href="/res/screenshot/01-information.png"></a>
+
+      <p><em>TODO: menu &amp; dialogs information</em></p>
     </div>
 
     <a name="control"></a>
@@ -138,7 +140,7 @@
       <p>
         The three buttons on the top-right of the page allow you to do the following:
         <ul>
-          <li><img src="/res/button/browse.png" title="browse"> Load control information from a file.</li>
+          <li><img src="/res/button/browse.png" title="open"> Load control information from a file.</li>
           <li><img src="/res/button/save.png" title="save"> Export control information to file.</li>
           <li><img src="/res/button/preview.png" title="preview"> Preview the formatted information.</li>
         </ul>
@@ -183,6 +185,8 @@
     <div class="box">
       <h1><a href="#toc-box">Files</a></h1>
 
+      <p><em>TODO:</em></p>
+
       <a class="app-screen" href="/res/screenshot/04-files.png"></a>
     </div>
 
@@ -190,28 +194,148 @@
     <div class="box">
       <h1><a href="#toc-box">Scripts</a></h1>
 
+      <p>
+        Debian packages support four scripts that are executed at different points during the
+        install or uninstall process. These scripts can be useful for handling operations outside
+        the scope of package contents, such as dynamically creating or removing symbolic links or
+        setting up configuration files, or executing commands to update system information such as
+        the MimeTypes database.
+      </p>
+
       <a class="app-screen" href="/res/screenshot/05-scripts.png"></a>
+
+      <p>The supported scripts are:</p>
+      <ul>
+        <li><b>Pre-Install (preinst):</b> Executed before package contents are installed on the host
+        system.</li>
+        <li><b>Post-Install (postinst):</b> Executed after package contents are installed on
+        the host system.</li>
+        <li><b>Pre-Remove (prerm):</b> Executed before package contents are uninstalled from the
+        host system.</li>
+        <li><b>Post-Remove (postrm):</b> Executed after package contents are uninstalled from the
+        host system.</li>
+      </ul>
+
+      <p>
+        These files can be formatted in the syntax of any supported scripting language &amp; must
+        start with the proper shebang line (#!).
+      </p>
+
+      <p>
+        Debian policy supports using binary executables in place of executable scripts, but
+        Debreate currently does not.
+      </p>
+
+      <p>
+        Debreate also offers an Auto-Link Executables feature. This will detect executables listed
+        on the Files page and generate a postinst script that will create symbolic links to them in
+        the specified path. This is useful if you are installing executables to a directory that is
+        not located on the system PATH but want to access it from the command line without requiring
+        inputting the absolute path to the file. Auto-Link also creates a prerm script that will
+        delete the link upon uninstalling the package.
+      </p>
+
+      <p>
+        <b>How to use Auto-Link:</b>
+      </p>
+
+      <p>
+        Press the <img src="/res/button/import.png" title="import"> button to copy any executables
+        from the Files page. They will be listed in the right side panel. Then press the
+        <img src="/res/button/build.png" title="generate"> button. Post-Install and Pre-Remove
+        scripts will be enabled &amp; text added that when executed will place symbolic links to
+        your executables in the path designated by the "Path" option. Any executables you do not
+        want linked can be removed from the list with the <img src="/res/button/remove.png"
+        title="remove"> button before generation.
+      </p>
     </div>
 
     <a name="changelog"></a>
     <div class="box">
       <h1><a href="#toc-box">Changelog</a></h1>
 
+      <p>
+        A changelog file is not required by Debian policy, but is useful to inform users of fixes
+        &amp; new features to your package. This page will generate changes information formatted
+        according to Debian standards.
+      </p>
+
       <a class="app-screen" href="/res/screenshot/06-changelog.png"></a>
+
+      <p><em>TODO:</em></p>
+
+      <p>
+        The changelog file is installed to <tt>/usr/share/doc/&lt;package&gt;</tt> by default, but
+        can be set to a custom path.
+      </p>
     </div>
 
     <a name="copyright"></a>
     <div class="box">
       <h1><a href="#toc-box">Copyright</a></h1>
 
+      <p>
+        Inclusion of a copyright/license file notifies end users of how the software they are
+        receieving may be used &amp; redistributed. The text may contain any licensing information
+        but Debreate includes a selection of templates of commonly used free software licenses that
+        can be generated. Some of which are detected on the host system &amp; others are packaged
+        with the app.
+      </p>
+
+      <p>
+        As with the changelog, the license file is installed to
+        <tt>/usr/share/doc/&lt;package&gt;</tt>.
+      </p>
+
       <a class="app-screen" href="/res/screenshot/07-copyright.png"></a>
+
+      <p>
+        To use a pre-defined template select the desired type from the available list. Use the
+        <img src="/res/button/full.png" title="full"> button to import the entire text. Optionally
+        edit to add copyright holder name &amp; email address. If a "short" template is available for
+        the selected license, you can use the <img src="/res/button/short.png" title="short"> button
+        to import the path to the referenced license file.
+      </p>
+
+      <p>
+        The <img src="/res/button/refresh.png" title="refresh"> button can be used to refresh the
+        list with new templates added in the
+        <tt>${HOME}/.local/share/debreate/templates/licenses</tt> directory. Or a custom text can
+        be imported with the <img src="/res/button/browse.png" title="open"> button.
+      </p>
     </div>
 
     <a name="menu"></a>
     <div class="box">
       <h1><a href="#toc-box">Menu</a></h1>
 
+      <p>
+        This section is for an optional menu entry to be included with the package. Adding a menu
+        file places an icon in the system menu upon installation.
+      </p>
+
       <a class="app-screen" href="/res/screenshot/08-menu.png"></a>
+
+      <p>
+        Debian packages actually support multiple menu entry files using the .desktop filename
+        extenstion. Currently, only creation of a single file is supported by this page. But as an
+        alternative to filling out the information here, the pre-formatted files can be added on the
+        Files page targeting either the directory <tt>/usr/share/applications</tt> or
+        <tt>/usr/local/share/applications</tt>.
+      </p>
+
+      <p>
+        As with control files, the <img src="/res/button/browse.png" title="open">,
+        <img src="/res/button/save.png" title="save">, &amp;
+        <img src="/res/button/preview.png" title="preview"> buttons can be used to import, export,
+        or preview a .desktop menu entry file.
+      </p>
+
+      <p>
+        For more information on menu files see the
+        <a href="https://www.freedesktop.org/wiki/Specifications/desktop-entry-spec/">
+        freedesktop.org Desktop Entry Specification</a>.
+      </p>
     </div>
 
     <a name="build"></a>
@@ -219,6 +343,33 @@
       <h1><a href="#toc-box">Build</a></h1>
 
       <a class="app-screen" href="/res/screenshot/09-build.png"></a>
+
+      <p>
+        The final step in building the package. Press the <img src="/res/button/build.png"
+        title="build"> button to begin. A dialog will open to select the output package name &amp;
+        location. After selecting "save" a new dialog will open displaying progress of the build.
+        Any errors or warnings that occur during the process should be displayed after completion.
+      </p>
+
+      <p>Options on this page:</p>
+      <ul>
+        <li><b>Create md5sums file:</b> A file containing hashes for the file contents of the
+        package will be created. This is useful for if the package manager needs to check if files
+        have been altered before installing a new version of a package.</li>
+        <li><b>Strip binaries:</b> Uses the <tt>strip</tt> command to remove debugging data from any
+        <a href="https://en.wikipedia.org/wiki/Executable_and_Linkable_Format">ELF binaries</a>.</li>
+        <li><b>Delete staged directory:</b> Upon completion of package building, the directory tree
+        constructed for temporary file placement will be deleted. It may be useful to disable this
+        option for debugging build errors.</li>
+        <li><b>Check package for errors with lintian:</b> If the
+        <a href="https://lintian.debian.org/">Lintian Reports</a> utilities are installed the
+        constructed package will be checked for compliancy with Debian standards. Lintian error
+        &amp; warning tags information can be found <a href="https://lintian.debian.org/tags">
+        here</a></li>
+        <li><b>Install package after build:</b> Installs package after build, either in the
+        background by directly calling <tt>dpkg --install</tt>, or via an available GUI package
+        installer program. Requires elevated privileges &amp; will prompt for password.</li>
+      </ul>
     </div>
 
     <div class="box center">
