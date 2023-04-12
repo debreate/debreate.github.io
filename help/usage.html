@@ -361,7 +361,9 @@
         <a href="https://en.wikipedia.org/wiki/Executable_and_Linkable_Format">ELF binaries</a>.</li>
         <li><b>Delete staged directory:</b> Upon completion of package building, the directory tree
         constructed for temporary file placement will be deleted. It may be useful to disable this
-        option for debugging build errors.</li>
+        option for debugging build errors. <em>(currently staged files are placed in the directory
+        where the target package is built, but this will change to use the system's temporary
+        directory in the future)</em></li>
         <li><b>Check package for errors with lintian:</b> If the
         <a href="https://lintian.debian.org/">Lintian Reports</a> utilities are installed the
         constructed package will be checked for compliancy with Debian standards. Lintian error
