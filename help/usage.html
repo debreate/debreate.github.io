@@ -325,11 +325,37 @@
 
       <a class="app-screen" href="/res/screenshot/06-changelog.png"></a>
 
-      <p><em>TODO:</em></p>
+      <p class="header">Fields Explanation:</p>
+      <ul>
+        <li><b>Package:</b> Package name. This should match the <tt>Control</tt> page</a>.
+        </li>
+        <li><b>Version:</b> Package version. This should match the <tt>Control</tt> page.</li>
+        <li><b>Distribution:</b> Name of OS distribution for which this package is intented. The
+        list of available pre-defined names can be updated with the <a href="#dialog-distnames">
+        Update Dist Names Cache dialog</a>.</li>
+        <li><b>Urgency:</b> Level of importance for upgrading from previous version.</li>
+        <li><b>Maintainer:</b> Name of the package maintainer. This is not necessarily the same as
+        the software author.</li>
+        <li><b><img src="/res/button/import.png" title="import">:</b> Imports maintainer, email,
+        package name, &amp; package version from <tt>Control</tt> page.</li>
+        <li><b>Email:</b> Package maintainer email address.</li>
+        <li><b>Changes:</b> Staging area for listing changes for the current version of the package.
+        </li>
+        <li><b>Changelog Output:</b> Actual contents to be exported to the changelog file. This
+        section can be edited manually.</li>
+        <li><b><img src="/res/button/add.png" title="prepend">:</b> Formats text from
+        <tt>Changes</tt> field &amp; prepends it to <tt>Changelog output</tt> as a new section.</li>
+        <li><b>Preserve indentation:</b> Indentation whitespace of lines not prepended with an item
+        delimiter (<tt>*</tt>, <tt>-</tt>, <tt>+</tt>, or <tt>#</tt>) will not be stripped.</li>
+        <li><b>Target:</b> Filename path of changelog when installed. The default location is
+        <tt>/usr/share/doc/&lt;package&gt;</tt>, but can be set to a custom value by deselecting the
+        check box.</li>
+      </ul>
 
       <p>
-        The changelog file is installed to <tt>/usr/share/doc/&lt;package&gt;</tt> by default, but
-        can be set to a custom path.
+        For more information see the
+        <a href="https://www.debian.org/doc/debian-policy/ch-source.html#s-dpkgchangelog">changelog
+        section</a> of Debian Policy Manual.
       </p>
     </div>
 
