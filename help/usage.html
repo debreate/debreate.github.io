@@ -34,6 +34,10 @@
           <li><a href="#debreates-role">Debreate's Role</a></li>
         </ul>
         <li><a href="#ui">Debreate's UI</a></li>
+        <ul>
+          <li><a href="#ui-startup">Startup</a></li>
+          <li><a href="#ui-menu">Menu</a></li>
+        </ul>
         <li><a href="#control">Control File</a></li>
         <li><a href="#depends">Dependencies &amp; Conflicts</a></li>
         <li><a href="#files">Files</a></li>
@@ -42,6 +46,11 @@
         <li><a href="#copyright">Copyright</a></li>
         <li><a href="#menu">Menu</a></li>
         <li><a href="#build">Build</a></li>
+        <li><a href="#dialogs">Dialogs</a></li>
+        <ul>
+          <li><a href="#dialog-quickbuild">Quick Build</a></li>
+          <li><a href="#dialog-distnames">Update Dist Names Cache</a></li>
+        </ul>
       </ul>
     </div>
 
@@ -113,7 +122,37 @@
 
       <a class="app-screen" href="/res/screenshot/01-information.png"></a>
 
-      <p><em>TODO: menu &amp; dialogs information</em></p>
+      <h2 class="header" id="ui-menu">Menu</h2>
+      <p>Description of menu options:</p>
+      <ul>
+        <li>File:</li>
+        <ul>
+          <li><b>New project:</b> Clears all fields.</li>
+          <li><b>Open:</b> Opens a dialog to load a project file.</li>
+          <li><b>Save:</b> Exports the current state to project file.</li>
+          <li><b>Save as:</b> Opens a dialog to export the current state to project file.</li>
+          <li><b>Quick Build:</b> Opens the <a href="#dialog-quickbuild">Quick Build dialog</a>.</li>
+          <li><b>Close:</b> Close the application.</li>
+        </ul>
+        <li><b>Page:</b> Navigate between pages of the application.</li>
+        <li><b>Options:</b></li>
+        <ul>
+          <li><b>Show tooltips:</b> Toggle information tooltips.</li>
+          <li><b>Open logs directory:</b> Attempts to open Debreate's log directory in system
+          file manager.</li>
+          <li><b>Update dist names cache:</b> Opens <a href="#dialog-distnames">Update Dist Names
+          Cache dialog</a>.</li>
+          <li><b>Clear local cache:</b> Deletes the <tt>${HOME}/.local/debreate/cache</tt>
+          directory.</li>
+        </ul>
+        <li><b>Help:</b></li>
+        <ul>
+          <li><b>Check for update:</b> Checks if a new version is available.</li>
+          <li><b>Reference:</b> Links to help &amp; reference pages.</li>
+          <li><b>Manual:</b> Opens Debreate usage manual.</li>
+          <li><b>About:</b> Opens a dialog with information about Debreate.</li>
+        </ul>
+      </ul>
     </div>
 
     <a name="control"></a>
@@ -396,6 +435,76 @@
         <li><b>Install package after build:</b> Installs package after build, either in the
         background by directly calling <tt>dpkg --install</tt>, or via an available GUI package
         installer program. Requires elevated privileges &amp; will prompt for password.</li>
+      </ul>
+    </div>
+
+    <div class="box" id="dialogs">
+      <h1 class="header"><a href="#toc">Dialogs</a></h1>
+
+      <h2 class="header" id="dialog-quickbuild">Quick Build</h2>
+      <p>
+        The Quick Build dialog can be used to build a .deb package using a pre-formatted directory
+        tree. The directory must include a top-level <tt>DEBIAN</tt> directory containing meta
+        information for the package.
+      </p>
+
+      <a class="app-screen" href="/res/screenshot/dialog-quickbuild.png"></a>
+
+      <p><b>Fields</b></p>
+      <ul>
+        <li><b>Staged directory tree:</b> Location of directory tree.</li>
+        <li><b>Target file:</b> Filename of package to be created.</li>
+        <li><img src="/res/button/exit.png" title="exit"><b>:</b> Closes the dialog.</li>
+        <li><img src="/res/button/build.png" title="build"><b>:</b> Begin building.</li>
+      </ul>
+
+      <h2 class="header" id="dialog-distnames">Update Dist Names Cache</h2>
+      <p>
+        The dist names cache is used for updating the list of available distributions on the
+        changelog page. Distribution names are parsed from the system's <tt>/etc/lsb-release</tt>
+        file. Updating the cache adds additional names using predefined standards or from remote
+        sources for Ubuntu, Debian, &amp; Linux Mint <em>(broken)</em>.
+      </p>
+
+      <a class="app-screen" href="/res/screenshot/dialog-distnames.png"></a>
+
+      <p>By default the following is included for each system:</p>
+      <ul>
+        <li><b>Debian:</b> <em>(remote source: <a href="https://wiki.debian.org/DebianReleases">
+        wiki.debian.org/DebianReleases</a>)</em></li>
+        <ul>
+          <li>The current production release.</li>
+        </ul>
+        <li><b>Ubuntu:</b> <em>(remote source: <a href="https://wiki.ubuntu.com/Releases">
+        wiki.ubuntu.com/Releases</a>)</em></li>
+        <ul>
+          <li>All currently supported LTS releases.</li>
+        </ul>
+        <li><b>Linux Mint:</b> <em>(remote source:
+        <a href="https://www.linuxmint.com/download_all.php">
+        linuxmint.com/download_all.php</a>)</em></li>
+        <ul>
+          <li>broken</li>
+        </ul>
+      </ul>
+
+      <p><b>Options:</b></p>
+      <ul>
+        <li><b>Unstable:</b></li>
+        <ul>
+          <li>Includes "sid" &amp; "stretch" in Debian releases.</li>
+          <li>Includes next Ubuntu LTS release.</li>
+        </ul>
+        <li><b>Obsolete:</b></li>
+        <ul>
+          <li>Includes "oldstable" in Debian releases.</li>
+          <li>Includes first six listed <em>end of life</em> Ubuntu releases.</li>
+        </ul>
+        <li><b>Generic:</b></li>
+        <ul>
+          <li>Includes "stable" in Debian releases. If <tt>Unstable</tt> is checked, also
+          includes "unstable" &amp; "testing".</li>
+        </ul>
       </ul>
     </div>
 
