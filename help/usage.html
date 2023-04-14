@@ -237,12 +237,12 @@
         Files &amp; directories can be added to the target list via the built-in directory tree on
         the left panel or by drag-and-drop from a system file manager. To use the directory tree,
         select the files &amp; directories you want to add. Set the target path from one of the
-        pre-defined options or use the custom path input. When you are ready, press
-        <img src="/res/button/add.png" title="add"> to import them into to file list. Or right-click
-        the directory tree to bring up a context menu &amp; select "Add to project". The app will
-        try to detect file MimeTypes &amp; executability. Executable files are denoted by red text.
-        It should be noted that files cannot be set as executable from within the app (yet). It must
-        be executable on the filesystem before importing.
+        pre-defined options or use the custom path input. When ready, press
+        <img src="/res/button/add.png" title="add"> to import the selection into to file list. Or
+        right-click the directory tree to bring up a context menu &amp; select "Add to project". The
+        app will try to detect file MimeTypes &amp; executability. Executable files are denoted by
+        red text. It should be noted that files cannot be set as executable from within the app
+        (yet). It must be executable on the filesystem before importing.
       </p>
 
       <p>
@@ -252,7 +252,15 @@
         to be used for the target directory.
       </p>
 
-      <p><b>TODO:</b> info about options</p>
+      <p class="header">Directory Options:</p>
+      <ul>
+        <li><b>List files individually:</b> Add files individually to list instead of only the
+        containing folder.</li>
+        <li><b>Preserve top-level directories:</b> By default, directory contents are added to the
+        list. Enable this option to add the directory instead.</li>
+        <li><b>Don't follow symbolic links:</b> Enable this option to add symbolic links as regular
+        files instead of adding the contents they point to.</li>
+      </ul>
     </div>
 
     <a name="scripts"></a>
