@@ -120,3 +120,9 @@ tt, .terminal {
 img.app-screen {
   width: 50%;
 }
+
+.header {
+  clear: right;
+  font-weight: bold;
+  text-decoration: underline;
+}

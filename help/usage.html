@@ -25,7 +25,7 @@
 
     <a name="toc"></a>
     <div class="box" id="toc-box">
-      <h1>Contents</h1>
+      <h1 class="header">Contents</h1>
       <ul id="toc">
         <li><a href="#package-managers">Packages &amp; Package Managers</a></li>
         <ul>
@@ -47,7 +47,7 @@
 
     <a name="package-managers"></a>
     <div class="box">
-      <h1 class="section-header"><a href="#toc-box">Packages &amp; Package Managers</a></h1>
+      <h1 class="header"><a href="#toc-box">Packages &amp; Package Managers</a></h1>
 
       <p>
         Most Linux and BSD based operating systems use
@@ -59,7 +59,7 @@
       </p>
 
       <a name="binary-packages"></a>
-      <h2>Binary Packages</h2>
+      <h2 class="header">Binary Packages</h2>
 
       <p>
         The term "binary package" refers to a software archive assembled for deployment &amp; active
@@ -69,7 +69,7 @@
       </p>
 
       <a name="source-packages"></a>
-      <h2>Source Packages</h2>
+      <h2 class="header">Source Packages</h2>
       <p>
         Source packages require steps to prepare the contents for system use. Often part of the
         process includes compiling text source code into machine code to be executed on the host
@@ -81,7 +81,7 @@
       </p>
 
       <a name="debreates-role"></a>
-      <h2>Debreate's Role</h2>
+      <h2 class="header">Debreate's Role</h2>
       <p>
         As of yet, Debreate does not support creating source packages or the creation of binary
         packages from source. It is currently only capable of the manual creation of .deb packages
@@ -91,9 +91,9 @@
 
     <a name="ui"></a>
     <div class="box">
-      <h1><a href="#toc-box">Debreate's UI</a></h1>
+      <h1 class="header"><a href="#toc-box">Debreate's UI</a></h1>
 
-      <h2>Startup</h2>
+      <h2 class="header" id="ui-startup">Startup</h2>
       <p>
         If the app's configuration file is not found on the system a dialog will display with a
         first time run message. A new configuration with default values will be created in
@@ -118,7 +118,7 @@
 
     <a name="control"></a>
     <div class="box">
-      <h1><a href="#toc-box">Control File</a></h1>
+      <h1 class="header"><a href="#toc-box">Control File</a></h1>
       <p>
         .deb packages contain the file <tt>DEBIAN/control</tt>. This file contains meta information
         about the package. Such as the package name, package version, author, &amp; requirements.
@@ -150,7 +150,7 @@
 
     <a name="depends"></a>
     <div class="box">
-      <h1><a href="#toc-box">Dependencies &amp; Conflicts</a></h1>
+      <h1 class="header"><a href="#toc-box">Dependencies &amp; Conflicts</a></h1>
 
       <p>
         Though on a separate page, dependencies &amp; conflicts are part of the control file.
@@ -184,7 +184,7 @@
 
     <a name="files"></a>
     <div class="box">
-      <h1><a href="#toc-box">Files</a></h1>
+      <h1 class="header"><a href="#toc-box">Files</a></h1>
 
       <p>
         This section is for the main contents of the package that will be installed to the target
@@ -218,7 +218,7 @@
 
     <a name="scripts"></a>
     <div class="box">
-      <h1><a href="#toc-box">Scripts</a></h1>
+      <h1 class="header"><a href="#toc-box">Scripts</a></h1>
 
       <p>
         Debian packages support four scripts that are executed at different points during the
@@ -261,9 +261,7 @@
         delete the link upon uninstalling the package.
       </p>
 
-      <p>
-        <b>How to use Auto-Link:</b>
-      </p>
+      <p class="header">How to use Auto-Link:</p>
 
       <p>
         Press the <img src="/res/button/import.png" title="import"> button to copy any executables
@@ -278,7 +276,7 @@
 
     <a name="changelog"></a>
     <div class="box">
-      <h1><a href="#toc-box">Changelog</a></h1>
+      <h1 class="header"><a href="#toc-box">Changelog</a></h1>
 
       <p>
         A changelog file is not required by Debian policy, but is useful to inform users of fixes
@@ -298,7 +296,7 @@
 
     <a name="copyright"></a>
     <div class="box">
-      <h1><a href="#toc-box">Copyright</a></h1>
+      <h1 class="header"><a href="#toc-box">Copyright</a></h1>
 
       <p>
         Inclusion of a copyright/license file notifies end users of how the software they are
@@ -334,7 +332,7 @@
 
     <a name="menu"></a>
     <div class="box">
-      <h1><a href="#toc-box">Menu</a></h1>
+      <h1 class="header"><a href="#toc-box">Menu</a></h1>
 
       <p>
         This section is for an optional menu entry to be included with the package. Adding a menu
@@ -367,7 +365,7 @@
 
     <a name="build"></a>
     <div class="box">
-      <h1><a href="#toc-box">Build</a></h1>
+      <h1 class="header"><a href="#toc-box">Build</a></h1>
 
       <a class="app-screen" href="/res/screenshot/09-build.png"></a>
 
